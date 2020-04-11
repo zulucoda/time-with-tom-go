@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app';
 import * as serviceWorker from './serviceWorker';
+import { Reset } from 'styled-reset';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Reset />
     <App />
   </React.StrictMode>,
   document.getElementById('root'),
