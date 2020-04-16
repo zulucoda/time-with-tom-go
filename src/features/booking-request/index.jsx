@@ -1,15 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-
-const Wrapper = styled.div`
-  padding: 0 1em 0 1em;
-`;
+import Activity from '../../components/activity';
+import FormLayout from '../../components/form-layout';
+import Typography from '@material-ui/core/Typography';
 
 const BookingRequest = () => {
   return (
-    <Wrapper>
-      <h2>Booking Request</h2>
-    </Wrapper>
+    <FormLayout>
+      <Typography variant="h3" gutterBottom marked="center" align="center">
+        Booking Request
+      </Typography>
+      <Activity />
+    </FormLayout>
   );
 };
 
