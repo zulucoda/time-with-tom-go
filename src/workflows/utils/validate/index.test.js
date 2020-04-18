@@ -1,7 +1,7 @@
 import validateWorkflows from '.';
 
 describe('Workflows - Utils - ValidateWorkflows - Unit Test', () => {
-  test('should validate all workflows in parallel and merged error object', async () => {
+  test('should validate all workflows in parallel and merge error object', async () => {
     const workflowA = () => ({
       component: () => 'some react component A',
       payload: (values) => ({ ...values }),
@@ -10,8 +10,8 @@ describe('Workflows - Utils - ValidateWorkflows - Unit Test', () => {
         valA2: 'valA2 is required',
       }),
       initialValues: {
-        valA1: 'valA1',
-        valA2: 'valA2',
+        valA1: '',
+        valA2: '',
       },
     });
     const workflowB = () => ({
@@ -22,8 +22,8 @@ describe('Workflows - Utils - ValidateWorkflows - Unit Test', () => {
         valB2: 'valB2 is required',
       }),
       initialValues: {
-        valB1: 'valB1',
-        valB2: 'valB2',
+        valB1: '',
+        valB2: '',
       },
     });
 
