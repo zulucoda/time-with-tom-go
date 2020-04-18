@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflow - Utils - Get Initial Values - Unit Test should return merged object literal 1`] = `
+Object {
+  "valA1": "valA1",
+  "valA2": "valA2",
+  "valB1": "valB1",
+  "valB2": "valB2",
+}
+`;
