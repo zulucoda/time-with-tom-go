@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - Utils - ValidateWorkflows - Unit Test should validate all workflows in parallel and merged error object 1`] = `
+Object {
+  "valA1": "valA1 is required",
+  "valA2": "valA2 is required",
+  "valB1": "valB1 is required",
+  "valB2": "valB2 is required",
+}
+`;
