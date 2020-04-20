@@ -1,7 +1,7 @@
 /**
  * Validate workflows in parallel
- * @param {Array<{component, payload, validate, initialValues}>} workflows
- * @return {function(Object<{}>): Object<{}>}
+ * @param {Workflow[]} workflows
+ * @return {function(Object): Object}
  */
 const validateWorkflows = (workflows) => async (values) => {
   const errors = await Promise.all(
