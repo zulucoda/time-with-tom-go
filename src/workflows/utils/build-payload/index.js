@@ -1,7 +1,7 @@
 /**
  * Build payload for all workflows in parallel
- * @param {Array<{component, payload, validate, initialValues}>} workflows
- * @return {function(Object<{}>): Object<{}>}
+ * @param {Workflow[]} workflows
+ * @return {function(Object): Object}
  */
 const buildPayload = (workflows) => async (values) => {
   const payload = await Promise.all(
