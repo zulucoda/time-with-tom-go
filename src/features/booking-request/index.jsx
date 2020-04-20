@@ -1,8 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import Activity from '../../workflows/activity/component';
 import FormLayout from '../../components/form-layout';
 import Typography from '@material-ui/core/Typography';
+import BookingRequestForm from './form';
 
 const BookingRequest = () => {
   return (
