@@ -16,6 +16,10 @@ const ACTIVITY_TITLE_TRAIL_RUN = 'Trail run';
 const ACTIVITY_VALUE_TRAIL_CYCLING = 'cycling';
 const ACTIVITY_TITLE_TRAIL_CYCLING = 'Cycling';
 
+/**
+ * Activity list
+ * @type {Dropdown[]}
+ */
 const ACTIVITY_LIST = [
   { value: ACTIVITY_VALUE_NONE, title: ACTIVITY_TITLE_NONE },
   { value: ACTIVITY_VALUE_GOLF, title: ACTIVITY_TITLE_GOLF },
@@ -25,6 +29,10 @@ const ACTIVITY_LIST = [
   { value: ACTIVITY_VALUE_TRAIL_CYCLING, title: ACTIVITY_TITLE_TRAIL_CYCLING },
 ];
 
+/**
+ * Select name
+ * @type {string}
+ */
 const SELECT_NAME = 'activity';
 
 export default {

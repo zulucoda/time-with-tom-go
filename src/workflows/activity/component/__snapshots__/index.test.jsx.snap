@@ -2,41 +2,45 @@
 
 exports[`Activity component does it render 1`] = `
 <div>
-  <div>
-    <select
-      name="activity"
-    >
-      <option
-        value="none"
+  <form
+    action="#"
+  >
+    <div>
+      <select
+        name="activity"
       >
-        Please select
-      </option>
-      <option
-        value="golf"
-      >
-        Golf
-      </option>
-      <option
-        value="tennis"
-      >
-        Tennis
-      </option>
-      <option
-        value="squash"
-      >
-        Squash
-      </option>
-      <option
-        value="trail_run"
-      >
-        Trail run
-      </option>
-      <option
-        value="cycling"
-      >
-        Cycling
-      </option>
-    </select>
-  </div>
+        <option
+          value="none"
+        >
+          Please select
+        </option>
+        <option
+          value="golf"
+        >
+          Golf
+        </option>
+        <option
+          value="tennis"
+        >
+          Tennis
+        </option>
+        <option
+          value="squash"
+        >
+          Squash
+        </option>
+        <option
+          value="trail_run"
+        >
+          Trail run
+        </option>
+        <option
+          value="cycling"
+        >
+          Cycling
+        </option>
+      </select>
+    </div>
+  </form>
 </div>
 `;
