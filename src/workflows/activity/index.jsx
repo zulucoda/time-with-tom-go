@@ -5,12 +5,12 @@ import validate from './validate';
 import initialValues from './initial-values';
 
 /**
- * Activity Workflow
+ * Activity Workflow Factory
  * @param {Object} options
  * @return {Workflow}
  * @constructor
  */
-const ActivityWorkflow = ({ ...options }) => {
+const ActivityWorkflowFactory = ({ ...options }) => {
   return {
     Component: () => <Activity />,
     payload: (values) => payload(values),
@@ -19,4 +19,4 @@ const ActivityWorkflow = ({ ...options }) => {
   };
 };
 
-export default ActivityWorkflow;
+export default ActivityWorkflowFactory;
