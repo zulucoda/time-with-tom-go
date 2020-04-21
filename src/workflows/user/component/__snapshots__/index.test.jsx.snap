@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity component does it render 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div>
+      <label>
+        name
+      </label>
+      <input
+        name="name"
+        type="text"
+        value=""
+      />
+      <label>
+        surname
+      </label>
+      <input
+        name="surname"
+        type="text"
+        value=""
+      />
+      <label>
+        email
+      </label>
+      <input
+        name="email"
+        type="email"
+        value=""
+      />
+    </div>
+  </form>
+</div>
+`;
