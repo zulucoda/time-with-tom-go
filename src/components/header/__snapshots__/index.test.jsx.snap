@@ -1,27 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`header component does it render 1`] = `
+exports[`Components - Header - Unit Test does it render 1`] = `
 <div>
   <div
-    class="sc-AxjAm eNOQZe"
+    class="sc-AxjAm cuFJrr"
   >
     <h1
-      class="sc-AxirZ FcLBr"
+      class="sc-AxirZ jzKcuX"
     >
       Time with Tom
     </h1>
     <ul
-      class="sc-AxiKw iUwNzZ"
+      class="sc-AxiKw TgnyB"
     >
       <li
         class="sc-AxhCb blzbZh"
       >
-        schedule
+        <a
+          href="/schedule"
+        >
+          <span
+            class="sc-AxhUy gOKJJv"
+          >
+            schedule
+          </span>
+        </a>
       </li>
       <li
         class="sc-AxhCb blzbZh"
       >
-        booking request
+        <a
+          href="/booking-request"
+        >
+          <span
+            class="sc-AxhUy gOKJJv"
+          >
+            booking request
+          </span>
+        </a>
       </li>
     </ul>
   </div>
