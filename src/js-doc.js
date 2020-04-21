@@ -1,9 +1,29 @@
 /**
+ * @typedef InitialValues
+ * @type {object}
+ */
+
+/**
+ * @typedef Values
+ * @type {{}}
+ */
+
+/**
+ * @typedef Errors
+ * @type {object}
+ */
+
+/**
+ * @typedef Payload
+ * @type {object}
+ */
+
+/**
  * @typedef Workflow
  * @type {object}
- * @property {React.Component} Component - React component
- * @property {function} payload - payload function
- * @property {function} validate - validate function
+ * @property {function(): React.FunctionComponent} Component - React component
+ * @property {function(Values): Payload} payload - payload function
+ * @property {function(Values): Errors} validate - validate function
  * @property {object} initialValues - initial values object
  */
 
