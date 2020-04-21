@@ -1,9 +1,10 @@
-import React from 'react';
 import { render } from '@testing-library/react';
 import App from '.';
+import React from 'react';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App - Unit Test', function () {
+  test('does it render', () => {
+    const { container } = render(<App />);
+    expect(container).toMatchSnapshot();
+  });
 });
