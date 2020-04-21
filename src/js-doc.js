@@ -28,13 +28,19 @@
  */
 
 /**
- * @typedef InitialValues
- * @type {object}
- */
-
-/**
  * @typedef Dropdown
  * @type {object}
  * @property {string} value
  * @property {string} title
+ */
+
+/**
+ * @typedef FieldMetaProps
+ * @type {object}
+ * @property {string} value - Value of the field
+ * @property {InitialValues} initialValue - Initial value of the field
+ * @property {string} error - Error message of the field
+ * @property {boolean} touched - Has the field been visited?
+ * @property {boolean} initialTouched - Initial touched state of the field
+ * @property {string} initialError - Initial error message of the field
  */
