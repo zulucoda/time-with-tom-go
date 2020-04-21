@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - Activity - Initial Values - Unit Test should return initial values 1`] = `
+Object {
+  "activity": "none",
+}
+`;

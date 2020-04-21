@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header component does it render 1`] = `
+<div>
+  <div
+    class="sc-AxjAm eNOQZe"
+  >
+    <h1
+      class="sc-AxirZ FcLBr"
+    >
+      Time with Tom
+    </h1>
+    <ul
+      class="sc-AxiKw iUwNzZ"
+    >
+      <li
+        class="sc-AxhCb blzbZh"
+      >
+        schedule
+      </li>
+      <li
+        class="sc-AxhCb blzbZh"
+      >
+        booking request
+      </li>
+    </ul>
+  </div>
+</div>
+`;

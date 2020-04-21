@@ -1,0 +1,42 @@
+const ACTIVITY_VALUE_NONE = 'none';
+const ACTIVITY_TITLE_NONE = 'Please select';
+
+const ACTIVITY_VALUE_GOLF = 'golf';
+const ACTIVITY_TITLE_GOLF = 'Golf';
+
+const ACTIVITY_VALUE_TENNIS = 'tennis';
+const ACTIVITY_TITLE_TENNIS = 'Tennis';
+
+const ACTIVITY_VALUE_SQUASH = 'squash';
+const ACTIVITY_TITLE_SQUASH = 'Squash';
+
+const ACTIVITY_VALUE_TRAIL_RUN = 'trail_run';
+const ACTIVITY_TITLE_TRAIL_RUN = 'Trail run';
+
+const ACTIVITY_VALUE_TRAIL_CYCLING = 'cycling';
+const ACTIVITY_TITLE_TRAIL_CYCLING = 'Cycling';
+
+/**
+ * Activity list
+ * @type {Dropdown[]}
+ */
+const ACTIVITY_LIST = [
+  { value: ACTIVITY_VALUE_NONE, title: ACTIVITY_TITLE_NONE },
+  { value: ACTIVITY_VALUE_GOLF, title: ACTIVITY_TITLE_GOLF },
+  { value: ACTIVITY_VALUE_TENNIS, title: ACTIVITY_TITLE_TENNIS },
+  { value: ACTIVITY_VALUE_SQUASH, title: ACTIVITY_TITLE_SQUASH },
+  { value: ACTIVITY_VALUE_TRAIL_RUN, title: ACTIVITY_TITLE_TRAIL_RUN },
+  { value: ACTIVITY_VALUE_TRAIL_CYCLING, title: ACTIVITY_TITLE_TRAIL_CYCLING },
+];
+
+/**
+ * Select name
+ * @type {string}
+ */
+const SELECT_NAME = 'activity';
+
+export default {
+  ACTIVITY_LIST,
+  SELECT_NAME,
+  ACTIVITY_VALUE_NONE,
+};
