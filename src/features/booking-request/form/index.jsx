@@ -1,16 +1,19 @@
 import React from 'react';
 import { Form, Formik, useFormikContext } from 'formik';
-import ActivityFactory from '../../../workflows/activity';
+import ActivityWorkflowFactory from '../../../workflows/activity';
 import getInitialValues from '../../../workflows/utils/get-initial-values';
 import validateWorkflows from '../../../workflows/utils/validate-workflows';
 import buildPayload from '../../../workflows/utils/build-payload';
+import UserWorkflowFactory from '../../../workflows/user';
 
-const BookingRequestFormik = ({ ActivityWorkflow }) => {
+const BookingRequestFormik = ({ workflows }) => {
   const { values, errors } = useFormikContext();
 
   return (
     <Form>
-      <ActivityWorkflow.Component />
+      {workflows.map((Workflow, index) => (
+        <Workflow.Component key={index} />
+      ))}
 
       <pre>
         debug value
@@ -27,9 +30,10 @@ const BookingRequestFormik = ({ ActivityWorkflow }) => {
 };
 
 const BookingRequestForm = () => {
-  const ActivityWorkflow = ActivityFactory({});
+  const ActivityWorkflow = ActivityWorkflowFactory({});
+  const UserWorkflow = UserWorkflowFactory({});
 
-  const workflows = [ActivityWorkflow];
+  const workflows = [ActivityWorkflow, UserWorkflow];
   const initialValues = getInitialValues(workflows);
   const validate = validateWorkflows(workflows);
   const payload = buildPayload(workflows);
@@ -44,7 +48,7 @@ const BookingRequestForm = () => {
       validate={validate}
       onSubmit={handleFormSubmission}
     >
-      <BookingRequestFormik ActivityWorkflow={ActivityWorkflow} />
+      <BookingRequestFormik workflows={workflows} />
     </Formik>
   );
 };

@@ -59,10 +59,39 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                 </option>
               </select>
             </div>
+            <div>
+              <label>
+                name
+              </label>
+              <input
+                name="name"
+                type="text"
+                value=""
+              />
+              <label>
+                surname
+              </label>
+              <input
+                name="surname"
+                type="text"
+                value=""
+              />
+              <label>
+                email
+              </label>
+              <input
+                name="email"
+                type="email"
+                value=""
+              />
+            </div>
             <pre>
               debug value
               {
-   "activity": "none"
+   "activity": "none",
+   "name": "",
+   "surname": "",
+   "email": ""
 }
             </pre>
             <pre>
