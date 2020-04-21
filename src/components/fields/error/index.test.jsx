@@ -19,4 +19,9 @@ describe('Components - Fields - Error - Unit Test', () => {
     const { container } = render(<ErrorField meta={props} />);
     expect(container).toMatchSnapshot();
   });
+
+  test('when no error it must return null', () => {
+    const { container } = render(<ErrorField meta={{}} />);
+    expect(container).toMatchSnapshot();
+  });
 });

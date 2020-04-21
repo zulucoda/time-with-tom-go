@@ -8,7 +8,7 @@ import { bool, shape, string } from 'prop-types';
  * @returns {React.FunctionComponent}
  */
 const ErrorField = ({ meta: { error, touched } }) =>
-  touched && error && <AlertError message={error} />;
+  touched && error ? <AlertError message={error} /> : null;
 
 ErrorField.propTypes = {
   meta: shape({
