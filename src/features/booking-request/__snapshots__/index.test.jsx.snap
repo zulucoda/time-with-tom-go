@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features - Booking Request - Unit Test does it render 1`] = `
+<div>
+  <div
+    class="makeStyles-root-1"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthSm"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-12"
+      >
+        <div
+          class="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom MuiTypography-alignCenter"
+            marked="center"
+          >
+            Booking Request
+          </h3>
+          <form
+            action="#"
+          >
+            <div>
+              <select
+                name="activity"
+              >
+                <option
+                  value="none"
+                >
+                  Please select
+                </option>
+                <option
+                  value="golf"
+                >
+                  Golf
+                </option>
+                <option
+                  value="tennis"
+                >
+                  Tennis
+                </option>
+                <option
+                  value="squash"
+                >
+                  Squash
+                </option>
+                <option
+                  value="trail_run"
+                >
+                  Trail run
+                </option>
+                <option
+                  value="cycling"
+                >
+                  Cycling
+                </option>
+              </select>
+            </div>
+            <pre>
+              debug value
+              {
+   "activity": "none"
+}
+            </pre>
+            <pre>
+              debug errors
+              {}
+            </pre>
+            <button
+              type="submit"
+            >
+               Submit 
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
