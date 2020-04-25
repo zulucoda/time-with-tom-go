@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - Booking - Initial Values - Unit Test should return initial values 1`] = `
+Object {
+  "date": "",
+  "endTime": "",
+  "startTime": "",
+}
+`;
