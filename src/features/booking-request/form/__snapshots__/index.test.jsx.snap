@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <form
+      action="#"
+    >
+      <pre>
+        debug value
+        {}
+      </pre>
+      <pre>
+        debug errors
+        {}
+      </pre>
+      <button
+        type="submit"
+      >
+         Submit 
+      </button>
+    </form>
+  </form>
+</div>
+`;

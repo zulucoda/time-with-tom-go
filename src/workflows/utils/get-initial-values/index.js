@@ -1,5 +1,5 @@
 /***
- * get initial values from workflow and sub-worfklow for formik form
+ * get initial values from workflow and sub-worfklow for formik formik
  * @param {Workflow[]} workflows
  * @return {Object} initialValues
  */

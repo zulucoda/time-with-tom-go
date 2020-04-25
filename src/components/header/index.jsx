@@ -37,7 +37,7 @@ const NavMenuItem = styled.li`
   border-radius: 0.3em;
 `;
 
-const NavLink = styled.a`
+const NavLink = styled.span`
   color: #eee;
   &:hover {
     color: yellow;

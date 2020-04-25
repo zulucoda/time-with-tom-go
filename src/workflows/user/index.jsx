@@ -1,22 +1,21 @@
 import React from 'react';
-import Activity from './component';
+import User from './component';
 import payload from './payload';
 import validate from './validate';
 import initialValues from './initial-values';
 
 /**
- * Activity Workflow Factory
+ * User Workflow Factory
  * @param {Object} options
  * @return {Workflow}
- * @constructor
  */
-const ActivityWorkflowFactory = ({ ...options }) => {
+const UserWorkflowFactory = ({ ...options }) => {
   return {
-    Component: () => <Activity />,
+    Component: () => <User />,
     payload: (values) => payload(values),
     validate: (values) => validate(values),
     initialValues,
   };
 };
 
-export default ActivityWorkflowFactory;
+export default UserWorkflowFactory;

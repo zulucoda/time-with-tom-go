@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
-import App from '.';
+import Schedule from '.';
 import React from 'react';
 
-describe('App - Unit Test', function () {
+describe('Features - Schedule - Unit Test', function () {
   test('does it render', () => {
-    const { container } = render(<App />);
+    const { container } = render(<Schedule />);
     expect(container).toMatchSnapshot();
   });
 });

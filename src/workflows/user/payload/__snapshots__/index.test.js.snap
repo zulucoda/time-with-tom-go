@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - User - Payload - Unit Test should return mapped payload values 1`] = `
+Object {
+  "email": "some@email.com",
+  "name": "some name",
+  "surname": "some surname",
+}
+`;

@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
-import App from '.';
+import FormLayout from '.';
 import React from 'react';
 
-describe('App - Unit Test', function () {
+describe('Components - Form Layout - Unit Test', function () {
   test('does it render', () => {
-    const { container } = render(<App />);
+    const { container } = render(<FormLayout />);
     expect(container).toMatchSnapshot();
   });
 });

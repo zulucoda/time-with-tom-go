@@ -1,7 +1,7 @@
 import React from 'react';
 import FormLayout from '../../components/form-layout';
 import Typography from '@material-ui/core/Typography';
-import BookingRequestForm from './form';
+import BookingRequestForm from './formik';
 
 const BookingRequest = () => {
   return (

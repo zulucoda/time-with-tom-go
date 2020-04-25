@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App - Unit Test does it render 1`] = `
+<div>
+  <div
+    class="sc-AxheI kAhrYl"
+  >
+    <div
+      class="sc-AxjAm cuFJrr"
+    >
+      <h1
+        class="sc-AxirZ jzKcuX"
+      >
+        Time with Tom
+      </h1>
+      <ul
+        class="sc-AxiKw TgnyB"
+      >
+        <li
+          class="sc-AxhCb blzbZh"
+        >
+          <a
+            href="/schedule"
+          >
+            <span
+              class="sc-AxhUy gOKJJv"
+            >
+              schedule
+            </span>
+          </a>
+        </li>
+        <li
+          class="sc-AxhCb blzbZh"
+        >
+          <a
+            href="/booking-request"
+          >
+            <span
+              class="sc-AxhUy gOKJJv"
+            >
+              booking request
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="sc-AxgMl fXRNbJ"
+    >
+      <h2>
+        Schedule
+      </h2>
+    </div>
+  </div>
+</div>
+`;

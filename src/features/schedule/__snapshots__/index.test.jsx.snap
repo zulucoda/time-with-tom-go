@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features - Schedule - Unit Test does it render 1`] = `
+<div>
+  <div
+    class="sc-AxjAm inOmiN"
+  >
+    <h2>
+      Schedule
+    </h2>
+  </div>
+</div>
+`;

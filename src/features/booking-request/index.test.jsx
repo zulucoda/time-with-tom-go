@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
-import App from '.';
+import BookingRequest from '.';
 import React from 'react';
 
-describe('App - Unit Test', function () {
+describe('Features - Booking Request - Unit Test', function () {
   test('does it render', () => {
-    const { container } = render(<App />);
+    const { container } = render(<BookingRequest />);
     expect(container).toMatchSnapshot();
   });
 });
