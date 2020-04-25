@@ -1,12 +1,8 @@
+import { Form, useFormikContext } from 'formik';
 import React from 'react';
-import { Form, Formik, useFormikContext } from 'formik';
-import ActivityWorkflowFactory from '../../../workflows/activity';
-import getInitialValues from '../../../workflows/utils/get-initial-values';
-import validateWorkflows from '../../../workflows/utils/validate-workflows';
-import buildPayload from '../../../workflows/utils/build-payload';
-import UserWorkflowFactory from '../../../workflows/user';
+import { array } from 'prop-types';
 
-const BookingRequestFormik = ({ workflows }) => {
+const BookingRequestForm = ({ workflows }) => {
   const { values, errors } = useFormikContext();
 
   return (
@@ -29,28 +25,8 @@ const BookingRequestFormik = ({ workflows }) => {
   );
 };
 
-const BookingRequestForm = () => {
-  const ActivityWorkflow = ActivityWorkflowFactory({});
-  const UserWorkflow = UserWorkflowFactory({});
-
-  const workflows = [ActivityWorkflow, UserWorkflow];
-  const initialValues = getInitialValues(workflows);
-  const validate = validateWorkflows(workflows);
-  const payload = buildPayload(workflows);
-
-  const handleFormSubmission = async (values) => {
-    alert(JSON.stringify(await payload(values), null, 3));
-  };
-
-  return (
-    <Formik
-      initialValues={initialValues}
-      validate={validate}
-      onSubmit={handleFormSubmission}
-    >
-      <BookingRequestFormik workflows={workflows} />
-    </Formik>
-  );
+BookingRequestForm.propTypes = {
+  workflows: array.isRequired,
 };
 
 export default BookingRequestForm;

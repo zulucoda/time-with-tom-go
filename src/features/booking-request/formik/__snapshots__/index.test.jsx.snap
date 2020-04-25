@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div>
+      <select
+        name="activity"
+      >
+        <option
+          value="none"
+        >
+          Please select
+        </option>
+        <option
+          value="golf"
+        >
+          Golf
+        </option>
+        <option
+          value="tennis"
+        >
+          Tennis
+        </option>
+        <option
+          value="squash"
+        >
+          Squash
+        </option>
+        <option
+          value="trail_run"
+        >
+          Trail run
+        </option>
+        <option
+          value="cycling"
+        >
+          Cycling
+        </option>
+      </select>
+    </div>
+    <div>
+      <label>
+        name
+      </label>
+      <input
+        name="name"
+        type="text"
+        value=""
+      />
+      <label>
+        surname
+      </label>
+      <input
+        name="surname"
+        type="text"
+        value=""
+      />
+      <label>
+        email
+      </label>
+      <input
+        name="email"
+        type="email"
+        value=""
+      />
+    </div>
+    <pre>
+      debug value
+      {
+   "activity": "none",
+   "name": "",
+   "surname": "",
+   "email": ""
+}
+    </pre>
+    <pre>
+      debug errors
+      {}
+    </pre>
+    <button
+      type="submit"
+    >
+       Submit 
+    </button>
+  </form>
+</div>
+`;
