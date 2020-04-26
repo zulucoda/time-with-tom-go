@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - Booking - Payload - Unit Test should return mapped payload values 1`] = `
+Object {
+  "date": "2020-04-21",
+  "endTime": "18:00",
+  "startTime": "08:00",
+}
+`;

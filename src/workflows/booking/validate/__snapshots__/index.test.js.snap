@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - Booking - Validate - Unit Test when there are NO errors it should return and empty error object 1`] = `Object {}`;
+
+exports[`Workflows - Booking - Validate - Unit Test when there are errors it should return error object 1`] = `
+Object {
+  "date": "Date is required.",
+  "endTime": "End time is required.",
+  "startTime": "Start time is required.",
+}
+`;

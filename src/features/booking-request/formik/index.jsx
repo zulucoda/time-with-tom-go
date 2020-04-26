@@ -1,17 +1,19 @@
 import React from 'react';
-import { Form, Formik, useFormikContext } from 'formik';
+import { Formik } from 'formik';
 import ActivityWorkflowFactory from '../../../workflows/activity';
 import getInitialValues from '../../../workflows/utils/get-initial-values';
 import validateWorkflows from '../../../workflows/utils/validate-workflows';
 import buildPayload from '../../../workflows/utils/build-payload';
 import UserWorkflowFactory from '../../../workflows/user';
 import BookingRequestForm from '../form';
+import BookingWorkflowFactory from '../../../workflows/booking';
 
 const BookingRequestFormik = () => {
   const ActivityWorkflow = ActivityWorkflowFactory({});
   const UserWorkflow = UserWorkflowFactory({});
+  const BookingWorkflow = BookingWorkflowFactory({});
 
-  const workflows = [ActivityWorkflow, UserWorkflow];
+  const workflows = [ActivityWorkflow, UserWorkflow, BookingWorkflow];
   const initialValues = getInitialValues(workflows);
   const validate = validateWorkflows(workflows);
   const payload = buildPayload(workflows);
