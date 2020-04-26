@@ -85,13 +85,42 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                 value=""
               />
             </div>
+            <div>
+              <label>
+                date
+              </label>
+              <input
+                name="date"
+                type="date"
+                value=""
+              />
+              <label>
+                startTime
+              </label>
+              <input
+                name="startTime"
+                type="time"
+                value=""
+              />
+              <label>
+                endTime
+              </label>
+              <input
+                name="endTime"
+                type="time"
+                value=""
+              />
+            </div>
             <pre>
               debug value
               {
    "activity": "none",
    "name": "",
    "surname": "",
-   "email": ""
+   "email": "",
+   "date": "",
+   "startTime": "",
+   "endTime": ""
 }
             </pre>
             <pre>
