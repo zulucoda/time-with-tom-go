@@ -1,5 +1,5 @@
 import React from 'react';
-import FormLayout from '../../components/form-layout';
+import FormLayout from '../../components/layout/form';
 import Typography from '@material-ui/core/Typography';
 import BookingRequestForm from './formik';
 
