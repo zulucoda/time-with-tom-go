@@ -6,6 +6,8 @@ const COLOURS = {
   GREEN: '#22bb83',
   ORANGE: '#ff931e',
   RED_ORANGE: '#f46523',
+  LIGHT_BLACK: '#282c34',
+  LIGHT_GRAY: '#eee',
 };
 
 const GRADIENTS = {
@@ -18,4 +20,9 @@ const SHADOWS = {
   BLUE: '3px 3px 3px 2px #1a293c',
 };
 
-export { COLOURS, GRADIENTS, SHADOWS };
+const LINKS = {
+  SCHEDULE: '/schedule',
+  BOOKING_REQUEST: '/booking-request',
+};
+
+export { COLOURS, GRADIENTS, SHADOWS, LINKS };
