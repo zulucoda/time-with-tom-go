@@ -33,7 +33,6 @@ FormikWrapperTestUtil.propTypes = {
 
 /**
  * React Router Wrapper Test Util
- * @param {React.FunctionComponent} Component
  * @param {object} props
  * @returns {React.FunctionComponent}
  */
@@ -42,6 +41,5 @@ export const ReactRouterWrapperTestUtil = (props) => (
 );
 
 ReactRouterWrapperTestUtil.propTypes = {
-  Component: oneOfType([element.isRequired, func]),
   props: shape({}),
 };
