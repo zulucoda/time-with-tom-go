@@ -12,10 +12,6 @@ const Schedule = () => {
     setScheduleList(data);
   }, []);
 
-  if (scheduleList.length === 0) {
-    return <AlertError message="There is no schedule data." />;
-  }
-
   return (
     <TableLayout>
       <Typography variant="h3" gutterBottom marked="center" align="center">

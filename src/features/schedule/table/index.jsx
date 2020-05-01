@@ -31,7 +31,7 @@ const BodyRow = styled(TableRow)({
   borderRadius: 3,
   boxShadow: SHADOWS.BLACK,
   '&:nth-of-type(odd)': {
-    backgroundColor: COLOURS.DARK_PURPLE,
+    backgroundColor: COLOURS.DARK_BLUE,
     boxShadow: SHADOWS.BLACK,
   },
 });
