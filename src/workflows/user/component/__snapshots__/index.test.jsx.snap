@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Activity component does it render 1`] = `
+exports[`Workflow - User - Component - Activity - Unit Test does it render 1`] = `
 <div>
   <form
     action="#"

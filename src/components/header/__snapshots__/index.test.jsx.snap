@@ -3,10 +3,10 @@
 exports[`Components - Header - Unit Test does it render 1`] = `
 <div>
   <div
-    class="sc-AxjAm cuFJrr"
+    class="sc-AxjAm kmVibe"
   >
     <h1
-      class="sc-AxirZ jzKcuX"
+      class="sc-AxirZ dxeCUY"
     >
       Time with Tom
     </h1>
@@ -14,26 +14,26 @@ exports[`Components - Header - Unit Test does it render 1`] = `
       class="sc-AxiKw TgnyB"
     >
       <li
-        class="sc-AxhCb blzbZh"
+        class="sc-AxhCb hLIlzG"
       >
         <a
           href="/schedule"
         >
           <span
-            class="sc-AxhUy gOKJJv"
+            class="sc-AxhUy kLxUxn"
           >
             schedule
           </span>
         </a>
       </li>
       <li
-        class="sc-AxhCb blzbZh"
+        class="sc-AxhCb hLIlzG"
       >
         <a
           href="/booking-request"
         >
           <span
-            class="sc-AxhUy gOKJJv"
+            class="sc-AxhUy kLxUxn"
           >
             booking request
           </span>

@@ -3,13 +3,13 @@
 exports[`App - Unit Test does it render 1`] = `
 <div>
   <div
-    class="sc-AxheI kAhrYl"
+    class="sc-AxgMl cxlern"
   >
     <div
-      class="sc-AxjAm cuFJrr"
+      class="sc-AxjAm kmVibe"
     >
       <h1
-        class="sc-AxirZ jzKcuX"
+        class="sc-AxirZ dxeCUY"
       >
         Time with Tom
       </h1>
@@ -17,26 +17,26 @@ exports[`App - Unit Test does it render 1`] = `
         class="sc-AxiKw TgnyB"
       >
         <li
-          class="sc-AxhCb blzbZh"
+          class="sc-AxhCb hLIlzG"
         >
           <a
             href="/schedule"
           >
             <span
-              class="sc-AxhUy gOKJJv"
+              class="sc-AxhUy kLxUxn"
             >
               schedule
             </span>
           </a>
         </li>
         <li
-          class="sc-AxhCb blzbZh"
+          class="sc-AxhCb hLIlzG"
         >
           <a
             href="/booking-request"
           >
             <span
-              class="sc-AxhUy gOKJJv"
+              class="sc-AxhUy kLxUxn"
             >
               booking request
             </span>
@@ -45,11 +45,279 @@ exports[`App - Unit Test does it render 1`] = `
       </ul>
     </div>
     <div
-      class="sc-AxgMl fXRNbJ"
+      class="makeStyles-root-1"
     >
-      <h2>
-        Schedule
-      </h2>
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthMd"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-12"
+        >
+          <div
+            class="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom MuiTypography-alignCenter"
+              marked="center"
+            >
+              Schedule
+            </h3>
+            <table
+              class="MuiTable-root WithStyles(ForwardRef(Table))-root-96"
+            >
+              <thead
+                class="MuiTableHead-root WithStyles(ForwardRef(TableHead))-root-99"
+              >
+                <tr
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-101 MuiTableRow-head"
+                >
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-108"
+                    scope="col"
+                  >
+                    Name
+                  </th>
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-121"
+                    scope="col"
+                  >
+                    Surname
+                  </th>
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-122"
+                    scope="col"
+                  >
+                    Email
+                  </th>
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-123"
+                    scope="col"
+                  >
+                    Activity
+                  </th>
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-124"
+                    scope="col"
+                  >
+                    Date
+                  </th>
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-125"
+                    scope="col"
+                  >
+                    Start Time
+                  </th>
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-126"
+                    scope="col"
+                  >
+                    End Time
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="MuiTableBody-root WithStyles(ForwardRef(TableBody))-root-127"
+              >
+                <tr
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-131"
+                  >
+                    Muzi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-132"
+                  >
+                    Buthelezi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-133"
+                  >
+                    muzi@mfbproject.co.za
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-134"
+                  >
+                    squash
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-135"
+                  >
+                    2020-05-02
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-136"
+                  >
+                    09:00
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-137"
+                  >
+                    13:00
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-138"
+                  >
+                    Muzi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-139"
+                  >
+                    Buthelezi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-140"
+                  >
+                    muzi@mfbproject.co.za
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-141"
+                  >
+                    squash
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-142"
+                  >
+                    2020-05-03
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-143"
+                  >
+                    09:00
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-144"
+                  >
+                    13:00
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-145"
+                  >
+                    Muzi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-146"
+                  >
+                    Buthelezi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-147"
+                  >
+                    muzi@mfbproject.co.za
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-148"
+                  >
+                    squash
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-149"
+                  >
+                    2020-05-04
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-150"
+                  >
+                    09:00
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-151"
+                  >
+                    13:00
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-152"
+                  >
+                    Muzi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-153"
+                  >
+                    Buthelezi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-154"
+                  >
+                    muzi@mfbproject.co.za
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-155"
+                  >
+                    squash
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-156"
+                  >
+                    2020-05-05
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-157"
+                  >
+                    09:00
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-158"
+                  >
+                    13:00
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-159"
+                  >
+                    Muzi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-160"
+                  >
+                    Buthelezi
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-161"
+                  >
+                    muzi@mfbproject.co.za
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-162"
+                  >
+                    squash
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-163"
+                  >
+                    2020-05-06
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-164"
+                  >
+                    09:00
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-165"
+                  >
+                    13:00
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
