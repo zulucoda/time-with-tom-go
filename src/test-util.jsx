@@ -37,10 +37,8 @@ FormikWrapperTestUtil.propTypes = {
  * @param {object} props
  * @returns {React.FunctionComponent}
  */
-export const ReactRouterWrapperTestUtil = ({ Component, props = {} }) => (
-  <Router>
-    <Component {...props} />
-  </Router>
+export const ReactRouterWrapperTestUtil = (props) => (
+  <Router>{props.children}</Router>
 );
 
 ReactRouterWrapperTestUtil.propTypes = {
