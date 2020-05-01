@@ -6,7 +6,9 @@ import { ReactRouterWrapperTestUtil } from '../../test-util';
 describe('Components - Header - Unit Test', function () {
   test('does it render', () => {
     const { container } = render(
-      <ReactRouterWrapperTestUtil Component={Header} />,
+      <ReactRouterWrapperTestUtil>
+        <Header />
+      </ReactRouterWrapperTestUtil>,
     );
     expect(container).toMatchSnapshot();
   });

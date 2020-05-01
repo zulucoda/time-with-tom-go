@@ -44,3 +44,12 @@
  * @property {boolean} initialTouched - Initial touched state of the field
  * @property {string} initialError - Initial error message of the field
  */
+
+/**
+ * @typedef ActiveLink
+ * @type {object}
+ * @property {string} path
+ * @property {string} url
+ * @property {boolean} isExact
+ * @property {object} params
+ */

@@ -4,6 +4,7 @@ import Header from '../components/header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Schedule from '../features/schedule';
 import BookingRequest from '../features/booking-request';
+import Footer from '../components/footer';
 
 const Container = styled.div`
   min-height: 100vh;
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/schedule" component={Schedule} />
           <Route exact path="/booking-request" component={BookingRequest} />
         </Switch>
+        <Footer />
       </Container>
     </Router>
   );

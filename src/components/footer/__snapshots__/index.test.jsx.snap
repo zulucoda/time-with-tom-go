@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Footer - Unit Test does it render 1`] = `
+<div>
+  <div
+    class="sc-AxjAm jpRRYM"
+  >
+    <div
+      class="sc-AxirZ eNSeUo"
+    >
+      <a
+        class="sc-AxhUy fQRvCE"
+        href="https://mfbproject.co.za"
+        target="_blank"
+      >
+        <img
+          class="sc-AxheI lgKsoI"
+          src="/assets/images/mfbproject.png"
+        />
+        <span
+          class="sc-AxgMl genlTy"
+        >
+          created by mfb project
+        </span>
+      </a>
+    </div>
+    <div
+      class="sc-AxiKw frfRSY"
+    >
+      <span
+        class="sc-AxhCb TsZTy"
+      >
+        Copyright © 2020 Muzikayise Flynn Buthelezi (zuluCoda)
+      </span>
+    </div>
+  </div>
+</div>
+`;

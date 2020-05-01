@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Components - Form Layout - Unit Test does it render 1`] = `
+exports[`Components - Form FormLayout - Unit Test does it render 1`] = `
 <div>
   <div
     class="makeStyles-root-1"
