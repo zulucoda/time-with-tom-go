@@ -8,7 +8,7 @@ import { COLOURS, GRADIENTS, SHADOWS } from '../../../config';
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    minHeight: '90vh',
+    minHeight: '85vh',
     backgroundColor: COLOURS.DARK_BLUE,
   },
   paper: {
