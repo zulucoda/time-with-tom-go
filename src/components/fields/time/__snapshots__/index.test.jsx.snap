@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Fields - Time - Unit Test does it render 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="sc-AxjAm jkaSBu"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root"
+        format="HH:mm"
+      >
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input"
+            name="name"
+            placeholder="18:00"
+            readonly=""
+            type="text"
+            value="02:00"
+          />
+        </div>
+        
+      </div>
+    </div>
+  </form>
+</div>
+`;
