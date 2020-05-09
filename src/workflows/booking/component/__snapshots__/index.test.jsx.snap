@@ -6,30 +6,81 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
     action="#"
   >
     <div>
-      <label>
-        date
-      </label>
-      <input
-        name="date"
-        type="date"
-        value=""
-      />
-      <label>
-        startTime
-      </label>
-      <input
-        name="startTime"
-        type="time"
-        value=""
-      />
-      <label>
-        endTime
-      </label>
-      <input
-        name="endTime"
-        type="time"
-        value=""
-      />
+      <div
+        class="sc-AxjAm jkaSBu"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+            data-shrink="false"
+          >
+            date
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              name="date"
+              type="date"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxjAm jkaSBu"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+            data-shrink="false"
+          >
+            startTime
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              name="startTime"
+              type="time"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxjAm jkaSBu"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+            data-shrink="false"
+          >
+            endTime
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              name="endTime"
+              type="time"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </form>
 </div>

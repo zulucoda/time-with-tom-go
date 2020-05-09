@@ -5,14 +5,31 @@ exports[`Components - Fields - Text - Unit Test does it render 1`] = `
   <form
     action="#"
   >
-    <label>
-      name
-    </label>
-    <input
-      name="name"
-      type="text"
-      value=""
-    />
+    <div
+      class="sc-AxjAm jkaSBu"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+          data-shrink="false"
+        >
+          name
+        </label>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input"
+            name="name"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
   </form>
 </div>
 `;
