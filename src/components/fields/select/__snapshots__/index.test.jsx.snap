@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Fields - Select - Unit Test does it render 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div>
+      <label>
+        name
+      </label>
+      <select
+        name="name"
+      />
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Components - Fields - Select - Unit Test should render select with options 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div>
+      <label>
+        name
+      </label>
+      <select
+        name="name"
+      >
+        <option
+          value="some value 1"
+        >
+          some title 1
+        </option>
+        <option
+          value="some value 2"
+        >
+          some title 2
+        </option>
+        <option
+          value="some value 3"
+        >
+          some title 3
+        </option>
+        <option
+          value="some value 4"
+        >
+          some title 4
+        </option>
+        <option
+          value="some value 5"
+        >
+          some title 5
+        </option>
+        <option
+          value="some value 6"
+        >
+          some title 6
+        </option>
+        <option
+          value="some value 7"
+        >
+          some title 7
+        </option>
+        <option
+          value="some value 8"
+        >
+          some title 8
+        </option>
+        <option
+          value="some value 9"
+        >
+          some title 9
+        </option>
+      </select>
+    </div>
+  </form>
+</div>
+`;
