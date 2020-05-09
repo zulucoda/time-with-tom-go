@@ -1,11 +1,18 @@
 import { render } from '@testing-library/react';
-import { FormikWrapperTestUtil } from '../../../test-util';
+import {
+  DateAndTimePickerProviderWrapperTestUtil,
+  FormikWrapperTestUtil,
+} from '../../../test-util';
 import Booking from './index';
 import React from 'react';
 
 describe('Workflows - Booking - Component - Unit Test', () => {
   test('does it render', () => {
-    const { container } = render(<FormikWrapperTestUtil Component={Booking} />);
+    const { container } = render(
+      <DateAndTimePickerProviderWrapperTestUtil>
+        <FormikWrapperTestUtil Component={Booking} />
+      </DateAndTimePickerProviderWrapperTestUtil>,
+    );
     expect(container).toMatchSnapshot();
   });
 });

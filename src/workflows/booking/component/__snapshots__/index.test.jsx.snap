@@ -7,14 +7,15 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
   >
     <div>
       <div
-        class="sc-AxjAm jkaSBu"
+        class="sc-AxirZ cbHwXd"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
+          format="yyyy/MM/dd"
         >
           <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-            data-shrink="false"
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+            data-shrink="true"
           >
             date
           </label>
@@ -25,21 +26,25 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
               aria-invalid="false"
               class="MuiInputBase-input MuiInput-input"
               name="date"
-              type="date"
-              value=""
+              placeholder="2020/04/21"
+              readonly=""
+              type="text"
+              value="2020/04/21"
             />
           </div>
+          
         </div>
       </div>
       <div
-        class="sc-AxjAm jkaSBu"
+        class="sc-AxiKw grOufF"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
+          format="HH:mm"
         >
           <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-            data-shrink="false"
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+            data-shrink="true"
           >
             startTime
           </label>
@@ -50,21 +55,25 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
               aria-invalid="false"
               class="MuiInputBase-input MuiInput-input"
               name="startTime"
-              type="time"
-              value=""
+              placeholder="18:00"
+              readonly=""
+              type="text"
+              value="02:00"
             />
           </div>
+          
         </div>
       </div>
       <div
-        class="sc-AxjAm jkaSBu"
+        class="sc-AxiKw grOufF"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
+          format="HH:mm"
         >
           <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-            data-shrink="false"
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+            data-shrink="true"
           >
             endTime
           </label>
@@ -75,10 +84,13 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
               aria-invalid="false"
               class="MuiInputBase-input MuiInput-input"
               name="endTime"
-              type="time"
-              value=""
+              placeholder="18:00"
+              readonly=""
+              type="text"
+              value="02:00"
             />
           </div>
+          
         </div>
       </div>
     </div>
