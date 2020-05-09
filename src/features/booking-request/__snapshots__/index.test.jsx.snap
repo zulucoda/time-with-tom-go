@@ -24,44 +24,43 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
             action="#"
           >
             <div>
-              <div>
-                <label>
+              <div
+                class="sc-AxjAm hcKRzz"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
+                >
                   activity
                 </label>
-                <select
-                  name="activity"
+                <div
+                  class="MuiInputBase-root MuiInput-root MuiInput-underline"
                 >
-                  <option
-                    value="none"
+                  <div
+                    aria-haspopup="listbox"
+                    aria-labelledby="mui-component-select-activity"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                    id="mui-component-select-activity"
+                    role="button"
+                    tabindex="0"
                   >
                     Please select
-                  </option>
-                  <option
-                    value="golf"
+                  </div>
+                  <input
+                    name="activity"
+                    type="hidden"
+                    value="none"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSelect-icon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
                   >
-                    Golf
-                  </option>
-                  <option
-                    value="tennis"
-                  >
-                    Tennis
-                  </option>
-                  <option
-                    value="squash"
-                  >
-                    Squash
-                  </option>
-                  <option
-                    value="trail_run"
-                  >
-                    Trail run
-                  </option>
-                  <option
-                    value="cycling"
-                  >
-                    Cycling
-                  </option>
-                </select>
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
             <div>
