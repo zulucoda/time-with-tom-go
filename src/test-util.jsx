@@ -2,6 +2,8 @@ import React from 'react';
 import { oneOfType, shape, element, func } from 'prop-types';
 import { Form, Formik } from 'formik';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { MuiPickersUtilsProvider } from '@material-ui/pickers';
+import DateFnsUtils from '@date-io/date-fns';
 
 /**
  * Formik Wrapper Test Util
@@ -41,5 +43,20 @@ export const ReactRouterWrapperTestUtil = (props) => (
 );
 
 ReactRouterWrapperTestUtil.propTypes = {
+  props: shape({}),
+};
+
+/**
+ * Date and Time Picker Provider Wrapper Test Util
+ * @param {object} props
+ * @returns {React.FunctionComponent}
+ */
+export const DateAndTimePickerProviderWrapperTestUtil = (props) => (
+  <MuiPickersUtilsProvider utils={DateFnsUtils}>
+    {props.children}
+  </MuiPickersUtilsProvider>
+);
+
+DateAndTimePickerProviderWrapperTestUtil.propTypes = {
   props: shape({}),
 };
