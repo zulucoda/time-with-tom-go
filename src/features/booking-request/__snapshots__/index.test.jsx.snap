@@ -23,9 +23,11 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
           <form
             action="#"
           >
-            <div>
+            <div
+              class="sc-AxirZ fOBhug"
+            >
               <div
-                class="sc-AxjAm hcKRzz"
+                class="sc-AxjAm bLetVr"
               >
                 <label
                   class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
