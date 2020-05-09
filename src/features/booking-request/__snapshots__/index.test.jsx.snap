@@ -24,40 +24,45 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
             action="#"
           >
             <div>
-              <select
-                name="activity"
-              >
-                <option
-                  value="none"
+              <div>
+                <label>
+                  activity
+                </label>
+                <select
+                  name="activity"
                 >
-                  Please select
-                </option>
-                <option
-                  value="golf"
-                >
-                  Golf
-                </option>
-                <option
-                  value="tennis"
-                >
-                  Tennis
-                </option>
-                <option
-                  value="squash"
-                >
-                  Squash
-                </option>
-                <option
-                  value="trail_run"
-                >
-                  Trail run
-                </option>
-                <option
-                  value="cycling"
-                >
-                  Cycling
-                </option>
-              </select>
+                  <option
+                    value="none"
+                  >
+                    Please select
+                  </option>
+                  <option
+                    value="golf"
+                  >
+                    Golf
+                  </option>
+                  <option
+                    value="tennis"
+                  >
+                    Tennis
+                  </option>
+                  <option
+                    value="squash"
+                  >
+                    Squash
+                  </option>
+                  <option
+                    value="trail_run"
+                  >
+                    Trail run
+                  </option>
+                  <option
+                    value="cycling"
+                  >
+                    Cycling
+                  </option>
+                </select>
+              </div>
             </div>
             <div>
               <label>
