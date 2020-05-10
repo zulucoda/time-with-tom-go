@@ -5,7 +5,9 @@ exports[`Workflow - User - Component - Activity - Unit Test does it render 1`] =
   <form
     action="#"
   >
-    <div>
+    <div
+      class="sc-AxirZ dyMoOF"
+    >
       <div
         class="sc-AxjAm jkaSBu"
       >

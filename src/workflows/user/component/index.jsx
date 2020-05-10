@@ -1,10 +1,16 @@
 import React from 'react';
 import userConfig from '../constants';
 import TextField from '../../../components/fields/text';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  width: 100%;
+  margin-bottom: 1rem;
+`;
 
 const User = () => {
   return (
-    <div>
+    <Container>
       <TextField
         label={userConfig.INPUT_NAME}
         name={userConfig.INPUT_NAME}
@@ -20,7 +26,7 @@ const User = () => {
         name={userConfig.INPUT_EMAIL}
         type="email"
       />
-    </div>
+    </Container>
   );
 };
 
