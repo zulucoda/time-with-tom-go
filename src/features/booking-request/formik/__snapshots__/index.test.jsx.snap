@@ -47,7 +47,9 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      class="sc-AxhCb fVmqxl"
+    >
       <div
         class="sc-AxiKw grOufF"
       >
@@ -124,38 +126,11 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      class="sc-AxheI dLDGYA"
+    >
       <div
-        class="sc-AxhCb ktukvB"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-          format="yyyy/MM/dd"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-            data-shrink="true"
-          >
-            date
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="date"
-              placeholder="2020/04/21"
-              readonly=""
-              type="text"
-              value="2020/04/21"
-            />
-          </div>
-          
-        </div>
-      </div>
-      <div
-        class="sc-AxhUy hqJxes"
+        class="sc-AxgMl eTFDCq"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -184,7 +159,7 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
         </div>
       </div>
       <div
-        class="sc-AxhUy hqJxes"
+        class="sc-AxgMl eTFDCq"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -207,6 +182,35 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
               readonly=""
               type="text"
               value="02:00"
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        class="sc-AxhUy hqJxes"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root"
+          format="yyyy/MM/dd"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+            data-shrink="true"
+          >
+            date
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              name="date"
+              placeholder="2020/04/21"
+              readonly=""
+              type="text"
+              value="2020/04/21"
             />
           </div>
           

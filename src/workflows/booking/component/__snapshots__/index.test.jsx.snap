@@ -5,38 +5,11 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
   <form
     action="#"
   >
-    <div>
+    <div
+      class="sc-AxiKw fFCmNh"
+    >
       <div
         class="sc-AxirZ cbHwXd"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-          format="yyyy/MM/dd"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-            data-shrink="true"
-          >
-            date
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="date"
-              placeholder="2020/04/21"
-              readonly=""
-              type="text"
-              value="2020/04/21"
-            />
-          </div>
-          
-        </div>
-      </div>
-      <div
-        class="sc-AxiKw grOufF"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -65,7 +38,7 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
         </div>
       </div>
       <div
-        class="sc-AxiKw grOufF"
+        class="sc-AxirZ cbHwXd"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -88,6 +61,35 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
               readonly=""
               type="text"
               value="02:00"
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        class="sc-AxjAm jkaSBu"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root"
+          format="yyyy/MM/dd"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+            data-shrink="true"
+          >
+            date
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              name="date"
+              placeholder="2020/04/21"
+              readonly=""
+              type="text"
+              value="2020/04/21"
             />
           </div>
           
