@@ -1,9 +1,8 @@
 import React from 'react';
+import { DatePicker } from '@material-ui/pickers';
 import { useField } from 'formik';
-import ErrorField from '../error';
-import { string } from 'prop-types';
-import TextFieldUi from '@material-ui/core/TextField';
 import styled from 'styled-components';
+import ErrorField from '../error';
 import { COLOURS } from '../../../config';
 
 const Container = styled.div`
@@ -39,24 +38,26 @@ const Container = styled.div`
   }
 `;
 
-/**
- * Formik Text Field
- * @param {string} label
- * @param {object} props
- * @returns {React.FunctionComponent}
- */
-const TextField = ({ label, ...props }) => {
+const DateField = (props) => {
   const [field, meta, helpers] = useField(props);
+
+  const { value } = meta;
+  const { setValue } = helpers;
+
   return (
     <Container>
-      <TextFieldUi label={label} {...field} {...props} />
+      <DatePicker
+        autoOk
+        placeholder="2020/04/21"
+        value={value}
+        onChange={(date) => setValue(date)}
+        format="yyyy/MM/dd"
+        name={field.name}
+        {...props}
+      />
       <ErrorField meta={meta} />
     </Container>
   );
 };
 
-TextField.propTypes = {
-  label: string.isRequired,
-};
-
-export default TextField;
+export default DateField;

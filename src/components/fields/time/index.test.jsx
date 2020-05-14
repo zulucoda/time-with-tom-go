@@ -3,14 +3,17 @@ import {
   DateAndTimePickerProviderWrapperTestUtil,
   FormikWrapperTestUtil,
 } from '../../../test-util';
-import Booking from './index';
+import TimeField from '.';
 import React from 'react';
 
-describe('Workflows - Booking - Component - Unit Test', () => {
+describe('Components - Fields - Time - Unit Test', () => {
   test('does it render', () => {
+    const props = {
+      name: 'name',
+    };
     const { container } = render(
       <DateAndTimePickerProviderWrapperTestUtil>
-        <FormikWrapperTestUtil Component={Booking} />
+        <FormikWrapperTestUtil Component={TimeField} props={props} />
       </DateAndTimePickerProviderWrapperTestUtil>,
     );
     expect(container).toMatchSnapshot();

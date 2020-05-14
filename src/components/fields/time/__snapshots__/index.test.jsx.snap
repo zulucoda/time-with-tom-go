@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Components - Fields - Text - Unit Test does it render 1`] = `
+exports[`Components - Fields - Time - Unit Test does it render 1`] = `
 <div>
   <form
     action="#"
@@ -10,13 +10,8 @@ exports[`Components - Fields - Text - Unit Test does it render 1`] = `
     >
       <div
         class="MuiFormControl-root MuiTextField-root"
+        format="HH:mm"
       >
-        <label
-          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-          data-shrink="false"
-        >
-          name
-        </label>
         <div
           class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
         >
@@ -24,10 +19,13 @@ exports[`Components - Fields - Text - Unit Test does it render 1`] = `
             aria-invalid="false"
             class="MuiInputBase-input MuiInput-input"
             name="name"
+            placeholder="18:00"
+            readonly=""
             type="text"
-            value=""
+            value="02:00"
           />
         </div>
+        
       </div>
     </div>
   </form>

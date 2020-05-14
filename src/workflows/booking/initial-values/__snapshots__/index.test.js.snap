@@ -2,8 +2,8 @@
 
 exports[`Workflows - Booking - Initial Values - Unit Test should return initial values 1`] = `
 Object {
-  "date": "",
-  "endTime": "",
-  "startTime": "",
+  "date": 2020-04-21T00:00:00.000Z,
+  "endTime": 2020-04-21T00:00:00.000Z,
+  "startTime": 2020-04-21T00:00:00.000Z,
 }
 `;

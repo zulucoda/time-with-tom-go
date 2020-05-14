@@ -5,41 +5,49 @@ exports[`Activity component does it render 1`] = `
   <form
     action="#"
   >
-    <div>
-      <select
-        name="activity"
+    <div
+      class="sc-AxirZ fOBhug"
+    >
+      <div
+        class="sc-AxjAm bLetVr"
       >
-        <option
-          value="none"
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
         >
-          Please select
-        </option>
-        <option
-          value="golf"
+          activity
+        </label>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline"
         >
-          Golf
-        </option>
-        <option
-          value="tennis"
-        >
-          Tennis
-        </option>
-        <option
-          value="squash"
-        >
-          Squash
-        </option>
-        <option
-          value="trail_run"
-        >
-          Trail run
-        </option>
-        <option
-          value="cycling"
-        >
-          Cycling
-        </option>
-      </select>
+          <div
+            aria-haspopup="listbox"
+            aria-labelledby="mui-component-select-activity"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+            id="mui-component-select-activity"
+            role="button"
+            tabindex="0"
+          >
+            <span>
+              ​
+            </span>
+          </div>
+          <input
+            name="activity"
+            type="hidden"
+            value=""
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+      </div>
     </div>
   </form>
 </div>

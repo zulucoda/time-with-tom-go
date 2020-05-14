@@ -1,8 +1,7 @@
-import React from 'react';
 import { useField } from 'formik';
+import { TimePicker } from '@material-ui/pickers';
 import ErrorField from '../error';
-import { string } from 'prop-types';
-import TextFieldUi from '@material-ui/core/TextField';
+import React from 'react';
 import styled from 'styled-components';
 import { COLOURS } from '../../../config';
 
@@ -39,24 +38,26 @@ const Container = styled.div`
   }
 `;
 
-/**
- * Formik Text Field
- * @param {string} label
- * @param {object} props
- * @returns {React.FunctionComponent}
- */
-const TextField = ({ label, ...props }) => {
+const TimeField = (props) => {
   const [field, meta, helpers] = useField(props);
+
+  const { value } = meta;
+  const { setValue } = helpers;
+
   return (
     <Container>
-      <TextFieldUi label={label} {...field} {...props} />
+      <TimePicker
+        autoOk
+        placeholder="18:00"
+        value={value}
+        onChange={(date) => setValue(date)}
+        ampm={false}
+        name={field.name}
+        {...props}
+      />
       <ErrorField meta={meta} />
     </Container>
   );
 };
 
-TextField.propTypes = {
-  label: string.isRequired,
-};
-
-export default TextField;
+export default TimeField;

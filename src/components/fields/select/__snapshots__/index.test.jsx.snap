@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Fields - Select - Unit Test does it render 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="sc-AxjAm bLetVr"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
+      >
+        name
+      </label>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline"
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="mui-component-select-name"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          id="mui-component-select-name"
+          role="button"
+          tabindex="0"
+        >
+          <span>
+            ​
+          </span>
+        </div>
+        <input
+          name="name"
+          type="hidden"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Components - Fields - Select - Unit Test should render select with options 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="sc-AxjAm bLetVr"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
+      >
+        name
+      </label>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline"
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="mui-component-select-name"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          id="mui-component-select-name"
+          role="button"
+          tabindex="0"
+        >
+          <span>
+            ​
+          </span>
+        </div>
+        <input
+          name="name"
+          type="hidden"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </form>
+</div>
+`;

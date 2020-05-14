@@ -8,19 +8,16 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
     <form
       action="#"
     >
-      <pre>
-        debug value
-        {}
-      </pre>
-      <pre>
-        debug errors
-        {}
-      </pre>
-      <button
-        type="submit"
+      <div
+        class="sc-AxjAm gKkMqa"
       >
-         Submit 
-      </button>
+        <button
+          class="sc-AxirZ frAFJN"
+          type="submit"
+        >
+           Submit 
+        </button>
+      </div>
     </form>
   </form>
 </div>
