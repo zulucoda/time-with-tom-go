@@ -1,5 +1,5 @@
-import format from 'date-fns/format';
 import add from 'date-fns/add';
+import parse from 'date-fns/parse';
 
 const LOCAL_STORAGE_KEY = 'time-with-tom-local-storage';
 
@@ -9,14 +9,11 @@ const createFakeData = () => {
     surname: 'Buthelezi',
     email: 'muzi@mfbproject.co.za',
     activity: 'squash',
-    date: format(
-      add(new Date(), {
-        days: dateAdd + 1,
-      }),
-      'yyyy-MM-dd',
-    ),
-    startTime: '09:00',
-    endTime: '13:00',
+    date: add(new Date(), {
+      days: dateAdd + 1,
+    }),
+    startTime: new Date('2020-04-21 09:00'),
+    endTime: new Date('2020-04-21 13:00'),
   });
   return JSON.stringify([...Array(5).keys()].map(sampleBookingRequest));
 };

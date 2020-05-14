@@ -5,13 +5,45 @@ exports[`Components - Fields - Select - Unit Test does it render 1`] = `
   <form
     action="#"
   >
-    <div>
-      <label>
+    <div
+      class="sc-AxjAm bLetVr"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
+      >
         name
       </label>
-      <select
-        name="name"
-      />
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline"
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="mui-component-select-name"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          id="mui-component-select-name"
+          role="button"
+          tabindex="0"
+        >
+          <span>
+            ​
+          </span>
+        </div>
+        <input
+          name="name"
+          type="hidden"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
     </div>
   </form>
 </div>
@@ -22,59 +54,45 @@ exports[`Components - Fields - Select - Unit Test should render select with opti
   <form
     action="#"
   >
-    <div>
-      <label>
+    <div
+      class="sc-AxjAm bLetVr"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
+      >
         name
       </label>
-      <select
-        name="name"
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline"
       >
-        <option
-          value="some value 1"
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="mui-component-select-name"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          id="mui-component-select-name"
+          role="button"
+          tabindex="0"
         >
-          some title 1
-        </option>
-        <option
-          value="some value 2"
+          <span>
+            ​
+          </span>
+        </div>
+        <input
+          name="name"
+          type="hidden"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          viewBox="0 0 24 24"
         >
-          some title 2
-        </option>
-        <option
-          value="some value 3"
-        >
-          some title 3
-        </option>
-        <option
-          value="some value 4"
-        >
-          some title 4
-        </option>
-        <option
-          value="some value 5"
-        >
-          some title 5
-        </option>
-        <option
-          value="some value 6"
-        >
-          some title 6
-        </option>
-        <option
-          value="some value 7"
-        >
-          some title 7
-        </option>
-        <option
-          value="some value 8"
-        >
-          some title 8
-        </option>
-        <option
-          value="some value 9"
-        >
-          some title 9
-        </option>
-      </select>
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
     </div>
   </form>
 </div>

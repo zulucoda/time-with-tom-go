@@ -6,7 +6,8 @@ import TableBody from '@material-ui/core/TableBody';
 import * as PropTypes from 'prop-types';
 import React from 'react';
 import { styled } from '@material-ui/core/styles';
-import { COLOURS, GRADIENTS, SHADOWS } from '../../../config';
+import { COLOURS, FORMAT, GRADIENTS, SHADOWS } from '../../../config';
+import format from 'date-fns/format';
 
 const TableWrapper = styled(Table)({
   minWidth: 700,
@@ -77,9 +78,13 @@ const ScheduleTable = ({ scheduleList }) => {
               <BodyCell>{surname}</BodyCell>
               <BodyCell>{email}</BodyCell>
               <BodyCell>{activity}</BodyCell>
-              <BodyCell>{date}</BodyCell>
-              <BodyCell isGreen>{startTime}</BodyCell>
-              <BodyCell isOrange>{endTime}</BodyCell>
+              <BodyCell>{format(new Date(date), FORMAT.DATE)}</BodyCell>
+              <BodyCell isGreen>
+                {format(new Date(startTime), FORMAT.TIME)}
+              </BodyCell>
+              <BodyCell isOrange>
+                {format(new Date(endTime), FORMAT.TIME)}
+              </BodyCell>
             </BodyRow>
           ),
         )}

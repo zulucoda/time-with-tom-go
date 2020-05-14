@@ -25,4 +25,9 @@ const LINKS = {
   BOOKING_REQUEST: '/booking-request',
 };
 
-export { COLOURS, GRADIENTS, SHADOWS, LINKS };
+const FORMAT = {
+  DATE: 'yyyy-MM-dd',
+  TIME: 'HH:SS',
+};
+
+export { COLOURS, GRADIENTS, SHADOWS, LINKS, FORMAT };
