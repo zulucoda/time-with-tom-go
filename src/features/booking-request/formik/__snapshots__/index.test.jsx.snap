@@ -6,238 +6,227 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
     action="#"
   >
     <div
-      class="sc-AxirZ fOBhug"
+      class="sc-AxhUy bByWWI"
     >
       <div
-        class="sc-AxjAm bLetVr"
+        class="sc-AxirZ fOBhug"
       >
-        <label
-          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
-        >
-          activity
-        </label>
         <div
-          class="MuiInputBase-root MuiInput-root MuiInput-underline"
+          class="sc-AxjAm bLetVr"
         >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
+          >
+            activity
+          </label>
           <div
-            aria-haspopup="listbox"
-            aria-labelledby="mui-component-select-activity"
-            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-            id="mui-component-select-activity"
-            role="button"
-            tabindex="0"
+            class="MuiInputBase-root MuiInput-root MuiInput-underline"
           >
-            Please select
-          </div>
-          <input
-            name="activity"
-            type="hidden"
-            value="none"
-          />
-          <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root MuiSelect-icon"
-            focusable="false"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M7 10l5 5 5-5z"
+            <div
+              aria-haspopup="listbox"
+              aria-labelledby="mui-component-select-activity"
+              class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+              id="mui-component-select-activity"
+              role="button"
+              tabindex="0"
+            >
+              Please select
+            </div>
+            <input
+              name="activity"
+              type="hidden"
+              value="none"
             />
-          </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSelect-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
+      <div
+        class="sc-AxhCb fVmqxl"
+      >
+        <div
+          class="sc-AxiKw grOufF"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+              data-shrink="false"
+            >
+              name
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input"
+                name="name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxiKw grOufF"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+              data-shrink="false"
+            >
+              surname
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input"
+                name="surname"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxiKw grOufF"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+              data-shrink="false"
+            >
+              email
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input"
+                name="email"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxmLO fSyjYq"
+      >
+        <div
+          class="sc-Axmtr bwmQFr"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+            format="HH:mm"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+              data-shrink="true"
+            >
+              startTime
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input"
+                name="startTime"
+                placeholder="18:00"
+                readonly=""
+                type="text"
+                value="02:00"
+              />
+            </div>
+            
+          </div>
+        </div>
+        <div
+          class="sc-Axmtr bwmQFr"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+            format="HH:mm"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+              data-shrink="true"
+            >
+              endTime
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input"
+                name="endTime"
+                placeholder="18:00"
+                readonly=""
+                type="text"
+                value="02:00"
+              />
+            </div>
+            
+          </div>
+        </div>
+        <div
+          class="sc-AxheI gGPxKs"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+            format="yyyy/MM/dd"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+              data-shrink="true"
+            >
+              date
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input"
+                name="date"
+                placeholder="2020/04/21"
+                readonly=""
+                type="text"
+                value="2020/04/21"
+              />
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <button
+        class="sc-AxgMl hkkFJi"
+        type="submit"
+      >
+         Submit 
+      </button>
     </div>
-    <div
-      class="sc-AxhCb fVmqxl"
-    >
-      <div
-        class="sc-AxiKw grOufF"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-            data-shrink="false"
-          >
-            name
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="name"
-              type="text"
-              value=""
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-AxiKw grOufF"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-            data-shrink="false"
-          >
-            surname
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="surname"
-              type="text"
-              value=""
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-AxiKw grOufF"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-            data-shrink="false"
-          >
-            email
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="email"
-              type="email"
-              value=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="sc-AxheI dLDGYA"
-    >
-      <div
-        class="sc-AxgMl eTFDCq"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-          format="HH:mm"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-            data-shrink="true"
-          >
-            startTime
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="startTime"
-              placeholder="18:00"
-              readonly=""
-              type="text"
-              value="02:00"
-            />
-          </div>
-          
-        </div>
-      </div>
-      <div
-        class="sc-AxgMl eTFDCq"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-          format="HH:mm"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-            data-shrink="true"
-          >
-            endTime
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="endTime"
-              placeholder="18:00"
-              readonly=""
-              type="text"
-              value="02:00"
-            />
-          </div>
-          
-        </div>
-      </div>
-      <div
-        class="sc-AxhUy hqJxes"
-      >
-        <div
-          class="MuiFormControl-root MuiTextField-root"
-          format="yyyy/MM/dd"
-        >
-          <label
-            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-            data-shrink="true"
-          >
-            date
-          </label>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-          >
-            <input
-              aria-invalid="false"
-              class="MuiInputBase-input MuiInput-input"
-              name="date"
-              placeholder="2020/04/21"
-              readonly=""
-              type="text"
-              value="2020/04/21"
-            />
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    <pre>
-      debug value
-      {
-   "activity": "none",
-   "name": "",
-   "surname": "",
-   "email": "",
-   "date": "2020-04-21T00:00:00.000Z",
-   "startTime": "2020-04-21T00:00:00.000Z",
-   "endTime": "2020-04-21T00:00:00.000Z"
-}
-    </pre>
-    <pre>
-      debug errors
-      {}
-    </pre>
-    <button
-      type="submit"
-    >
-       Submit 
-    </button>
   </form>
 </div>
 `;

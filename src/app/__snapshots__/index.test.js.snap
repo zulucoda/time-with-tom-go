@@ -3,7 +3,7 @@
 exports[`App - Unit Test does it render 1`] = `
 <div>
   <div
-    class="sc-fzoyAV bHqXCd"
+    class="sc-fzoXzr yWeRH"
   >
     <div
       class="sc-AxjAm kmVibe"
@@ -320,32 +320,32 @@ exports[`App - Unit Test does it render 1`] = `
       </div>
     </div>
     <div
-      class="sc-fzplWN fOzcjK"
+      class="sc-fznKkj hSkQsr"
     >
       <div
-        class="sc-fznyAO GuxId"
+        class="sc-fznZeY bCDuWk"
       >
         <a
-          class="sc-fzokOt tiqOa"
+          class="sc-fzqNJr fwSvju"
           href="https://mfbproject.co.za"
           target="_blank"
         >
           <img
-            class="sc-fzqNJr KGYu"
+            class="sc-fzoLag cCYSTA"
             src="/assets/images/mfbproject.png"
           />
           <span
-            class="sc-fzqBZW jWtVqH"
+            class="sc-fzoyAV cmrEHA"
           >
             created by mfb project
           </span>
         </a>
       </div>
       <div
-        class="sc-fznKkj emxvjc"
+        class="sc-fzokOt hurjBr"
       >
         <span
-          class="sc-fznZeY fVlVwa"
+          class="sc-fzqBZW jofoPQ"
         >
           Copyright © 2020 Muzikayise Flynn Buthelezi (zuluCoda)
         </span>
