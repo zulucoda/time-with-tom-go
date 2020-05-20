@@ -24,6 +24,7 @@
  * @property {function(): React.FunctionComponent} Component - React component
  * @property {function(Values): Payload} payload - payload function
  * @property {function(Values): Errors} validate - validate function
+ * @property {function(Values): boolean} isActive - is workflow active
  * @property {object} initialValues - initial values object
  */
 
