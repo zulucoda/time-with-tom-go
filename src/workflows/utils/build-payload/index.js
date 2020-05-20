@@ -5,7 +5,9 @@
  */
 const buildPayload = (workflows) => async (values) => {
   const payload = await Promise.all(
-    workflows.map((workflow) => ({ ...workflow.payload(values) })),
+    workflows
+      .filter((workflow) => workflow.isActive(values))
+      .map((workflow) => ({ ...workflow.payload(values) })),
   );
 
   return payload.reduce((previousPayload, currentPayload) => ({

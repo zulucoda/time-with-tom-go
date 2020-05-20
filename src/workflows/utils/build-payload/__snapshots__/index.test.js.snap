@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Workflow - Utils - Build Payload - Unit Test should ONLY get payload for active workflows 1`] = `
+Object {
+  "finalValA": "valA1 and valA2",
+}
+`;
+
 exports[`Workflow - Utils - Build Payload - Unit Test should get payload from each workflow and merge into payload object 1`] = `
 Object {
   "finalValA": "valA1 and valA2",

@@ -3,6 +3,7 @@ import Activity from './component';
 import payload from './payload';
 import validate from './validate';
 import initialValues from './initial-values';
+import isActive from './active';
 
 /**
  * Activity Workflow Factory
@@ -15,6 +16,7 @@ const ActivityWorkflowFactory = ({ ...options }) => {
     Component: () => <Activity />,
     payload: (values) => payload(values),
     validate: (values) => validate(values),
+    isActive: (values) => isActive(values),
     initialValues,
   };
 };

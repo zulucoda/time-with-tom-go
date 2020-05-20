@@ -5,7 +5,9 @@
  */
 const validateWorkflows = (workflows) => async (values) => {
   const errors = await Promise.all(
-    workflows.map((workflow) => ({ ...workflow.validate(values) })),
+    workflows
+      .filter((workflow) => workflow.isActive(values))
+      .map((workflow) => ({ ...workflow.validate(values) })),
   );
 
   return errors.reduce((previousErrors, errors) => ({
