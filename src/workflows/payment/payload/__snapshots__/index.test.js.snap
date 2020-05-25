@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - User - Payload - Unit Test should return mapped payload values 1`] = `
+Object {
+  "ccCvc": 300,
+  "ccExpiryMonth": 1,
+  "ccExpiryYear": 2020,
+  "ccName": "some cc name",
+  "ccNumber": "55556666777788889999",
+}
+`;
