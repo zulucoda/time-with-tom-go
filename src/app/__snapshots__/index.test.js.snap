@@ -113,204 +113,235 @@ exports[`App - Unit Test does it render 1`] = `
                   >
                     End Time
                   </th>
+                  <th
+                    class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-root-107 WithStyles(ForwardRef(TableCell))-root-127"
+                    scope="col"
+                  >
+                    Paid
+                  </th>
                 </tr>
               </thead>
               <tbody
-                class="MuiTableBody-root WithStyles(ForwardRef(TableBody))-root-127"
+                class="MuiTableBody-root WithStyles(ForwardRef(TableBody))-root-128"
               >
                 <tr
-                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-130"
                 >
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-131"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-132"
                   >
                     Muzi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-132"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-133"
                   >
                     Buthelezi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-133"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-134"
                   >
                     muzi@mfbproject.co.za
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-134"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-135"
                   >
                     squash
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-135"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-136"
                   >
                     2020-04-22
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-136"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-137"
                   >
                     09:00
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-137"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-138"
                   >
                     13:00
                   </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-139"
+                  >
+                    yes
+                  </td>
                 </tr>
                 <tr
-                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-130"
                 >
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-138"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-140"
                   >
                     Muzi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-139"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-141"
                   >
                     Buthelezi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-140"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-142"
                   >
                     muzi@mfbproject.co.za
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-141"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-143"
                   >
                     squash
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-142"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-144"
                   >
                     2020-04-23
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-143"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-145"
                   >
                     09:00
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-144"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-146"
                   >
                     13:00
                   </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-147"
+                  >
+                    yes
+                  </td>
                 </tr>
                 <tr
-                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-130"
                 >
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-145"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-148"
                   >
                     Muzi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-146"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-149"
                   >
                     Buthelezi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-147"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-150"
                   >
                     muzi@mfbproject.co.za
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-148"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-151"
                   >
                     squash
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-149"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-152"
                   >
                     2020-04-24
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-150"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-153"
                   >
                     09:00
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-151"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-154"
                   >
                     13:00
                   </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-155"
+                  >
+                    yes
+                  </td>
                 </tr>
                 <tr
-                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-130"
                 >
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-152"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-156"
                   >
                     Muzi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-153"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-157"
                   >
                     Buthelezi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-154"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-158"
                   >
                     muzi@mfbproject.co.za
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-155"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-159"
                   >
                     squash
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-156"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-160"
                   >
                     2020-04-25
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-157"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-161"
                   >
                     09:00
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-158"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-162"
                   >
                     13:00
                   </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-163"
+                  >
+                    yes
+                  </td>
                 </tr>
                 <tr
-                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-129"
+                  class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-130"
                 >
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-159"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-164"
                   >
                     Muzi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-160"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-165"
                   >
                     Buthelezi
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-161"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-166"
                   >
                     muzi@mfbproject.co.za
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-162"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-167"
                   >
                     squash
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-163"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-168"
                   >
                     2020-04-26
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-164"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-169"
                   >
                     09:00
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-130 WithStyles(ForwardRef(TableCell))-root-165"
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-170"
                   >
                     13:00
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-root-131 WithStyles(ForwardRef(TableCell))-root-171"
+                  >
+                    yes
                   </td>
                 </tr>
               </tbody>
