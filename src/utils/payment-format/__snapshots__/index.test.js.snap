@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utils - Payment Format - Unit Test should null when n/a: n/a 1`] = `"no"`;
+
+exports[`Utils - Payment Format - Unit Test should paid when false: no 1`] = `"yes"`;
+
+exports[`Utils - Payment Format - Unit Test should paid when true: yes 1`] = `"yes"`;
+
+exports[`Utils - Payment Format - Unit Test should undefined when n/a: n/a 1`] = `"no"`;
