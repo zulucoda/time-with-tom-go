@@ -14,6 +14,7 @@ const createFakeData = () => {
     }),
     startTime: new Date('2020-04-21 09:00'),
     endTime: new Date('2020-04-21 13:00'),
+    paid: true,
   });
   return JSON.stringify([...Array(5).keys()].map(sampleBookingRequest));
 };

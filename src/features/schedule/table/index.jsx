@@ -8,6 +8,7 @@ import React from 'react';
 import { styled } from '@material-ui/core/styles';
 import { COLOURS, FORMAT, GRADIENTS, SHADOWS } from '../../../config';
 import format from 'date-fns/format';
+import paymentFormat from '../../../utils/payment-format';
 
 const TableWrapper = styled(Table)({
   minWidth: 700,
@@ -64,13 +65,14 @@ const ScheduleTable = ({ scheduleList }) => {
           <HeadCell>Date</HeadCell>
           <HeadCell isGreen>Start Time</HeadCell>
           <HeadCell isOrange>End Time</HeadCell>
+          <HeadCell>Paid</HeadCell>
         </HeadRow>
       </HeadWrapper>
 
       <BodyWrapper>
         {scheduleList.map(
           (
-            { name, surname, email, activity, date, startTime, endTime },
+            { name, surname, email, activity, date, startTime, endTime, paid },
             index,
           ) => (
             <BodyRow key={index}>
@@ -85,6 +87,7 @@ const ScheduleTable = ({ scheduleList }) => {
               <BodyCell isOrange>
                 {format(new Date(endTime), FORMAT.TIME)}
               </BodyCell>
+              <BodyCell>{paymentFormat(paid)}</BodyCell>
             </BodyRow>
           ),
         )}

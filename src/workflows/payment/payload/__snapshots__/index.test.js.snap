@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - User - Payload - Unit Test should return mapped payload values 1`] = `
+Object {
+  "paid": true,
+}
+`;

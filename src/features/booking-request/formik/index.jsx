@@ -8,6 +8,7 @@ import buildPayload from '../../../workflows/utils/build-payload';
 import UserWorkflowFactory from '../../../workflows/user';
 import BookingRequestForm from '../form';
 import BookingWorkflowFactory from '../../../workflows/booking';
+import PaymentWorkflowFactory from '../../../workflows/payment';
 import { fakePost } from '../../../fake-services';
 
 const BookingRequestFormik = () => {
@@ -15,8 +16,14 @@ const BookingRequestFormik = () => {
   const ActivityWorkflow = ActivityWorkflowFactory({});
   const UserWorkflow = UserWorkflowFactory({});
   const BookingWorkflow = BookingWorkflowFactory({});
+  const PaymentWorkflow = PaymentWorkflowFactory({});
 
-  const workflows = [ActivityWorkflow, UserWorkflow, BookingWorkflow];
+  const workflows = [
+    ActivityWorkflow,
+    UserWorkflow,
+    BookingWorkflow,
+    PaymentWorkflow,
+  ];
   const initialValues = getInitialValues(workflows);
   const validate = validateWorkflows(workflows);
   const payload = buildPayload(workflows);

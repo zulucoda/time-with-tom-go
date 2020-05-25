@@ -238,6 +238,139 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
               </div>
+              <div
+                class="sc-fzozJi gaxvzP"
+              >
+                <div
+                  class="sc-AxiKw grOufF"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root"
+                  >
+                    <label
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink="false"
+                    >
+                      ccName
+                    </label>
+                    <div
+                      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                    >
+                      <input
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiInput-input"
+                        name="ccName"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sc-AxiKw grOufF"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root"
+                  >
+                    <label
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink="false"
+                    >
+                      ccNumber
+                    </label>
+                    <div
+                      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                    >
+                      <input
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiInput-input"
+                        name="ccNumber"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sc-fzoLsD fLyCsJ"
+                >
+                  <div
+                    class="sc-AxiKw grOufF"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiTextField-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                        data-shrink="true"
+                      >
+                        ccExpiryMonth
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiInput-input"
+                          name="ccExpiryMonth"
+                          type="number"
+                          value="0"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-AxiKw grOufF"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiTextField-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                        data-shrink="true"
+                      >
+                        ccExpiryYear
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiInput-input"
+                          name="ccExpiryYear"
+                          type="number"
+                          value="0"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-AxiKw grOufF"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiTextField-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                        data-shrink="true"
+                      >
+                        ccCvc
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiInput-input"
+                          name="ccCvc"
+                          type="number"
+                          value="0"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <button
                 class="sc-AxgMl hkkFJi"
                 type="submit"
