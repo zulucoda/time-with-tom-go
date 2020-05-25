@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflows - User - Initial Values - Unit Test should return initial values 1`] = `
+Object {
+  "ccCvc": 0,
+  "ccExpiryMonth": 0,
+  "ccExpiryYear": 0,
+  "ccName": "",
+  "ccNumber": "",
+}
+`;
