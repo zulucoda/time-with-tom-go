@@ -8,6 +8,12 @@ const Container = styled.div`
   margin-bottom: 1rem;
 `;
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+`;
+
 const Payment = () => {
   return (
     <Container>
@@ -21,21 +27,23 @@ const Payment = () => {
         name={paymentConfig.INPUT_CC_NUMBER}
         type="text"
       />
-      <TextField
-        label={paymentConfig.INPUT_CC_EXPIRY_MONTH}
-        name={paymentConfig.INPUT_CC_EXPIRY_MONTH}
-        type="number"
-      />
-      <TextField
-        label={paymentConfig.INPUT_CC_EXPIRY_YEAR}
-        name={paymentConfig.INPUT_CC_EXPIRY_YEAR}
-        type="number"
-      />
-      <TextField
-        label={paymentConfig.INPUT_CC_CVC}
-        name={paymentConfig.INPUT_CC_CVC}
-        type="number"
-      />
+      <Wrapper>
+        <TextField
+          label={paymentConfig.INPUT_CC_EXPIRY_MONTH}
+          name={paymentConfig.INPUT_CC_EXPIRY_MONTH}
+          type="number"
+        />
+        <TextField
+          label={paymentConfig.INPUT_CC_EXPIRY_YEAR}
+          name={paymentConfig.INPUT_CC_EXPIRY_YEAR}
+          type="number"
+        />
+        <TextField
+          label={paymentConfig.INPUT_CC_CVC}
+          name={paymentConfig.INPUT_CC_CVC}
+          type="number"
+        />
+      </Wrapper>
     </Container>
   );
 };
