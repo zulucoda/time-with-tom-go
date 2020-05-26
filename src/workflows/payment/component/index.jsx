@@ -18,28 +18,28 @@ const Payment = () => {
   return (
     <Container>
       <TextField
-        label={paymentConfig.INPUT_CC_NAME}
+        label={paymentConfig.TITLE_CC_NAME}
         name={paymentConfig.INPUT_CC_NAME}
         type="text"
       />
       <TextField
-        label={paymentConfig.INPUT_CC_NUMBER}
+        label={paymentConfig.TITLE_CC_NUMBER}
         name={paymentConfig.INPUT_CC_NUMBER}
         type="text"
       />
       <Wrapper>
         <TextField
-          label={paymentConfig.INPUT_CC_EXPIRY_MONTH}
+          label={paymentConfig.TITLE_CC_EXPIRY_MONTH}
           name={paymentConfig.INPUT_CC_EXPIRY_MONTH}
           type="number"
         />
         <TextField
-          label={paymentConfig.INPUT_CC_EXPIRY_YEAR}
+          label={paymentConfig.TITLE_CC_EXPIRY_YEAR}
           name={paymentConfig.INPUT_CC_EXPIRY_YEAR}
           type="number"
         />
         <TextField
-          label={paymentConfig.INPUT_CC_CVC}
+          label={paymentConfig.TITLE_CC_CVC}
           name={paymentConfig.INPUT_CC_CVC}
           type="number"
         />
