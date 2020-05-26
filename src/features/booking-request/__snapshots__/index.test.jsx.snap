@@ -253,7 +253,15 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
               </div>
-              <div />
+              <div
+                class="sc-fznKkj bdRJUx"
+              >
+                <h3
+                  class="sc-fznZeY kYyEiB"
+                >
+                  This activity is free
+                </h3>
+              </div>
               <button
                 class="sc-AxmLO sLNjy"
                 type="submit"
