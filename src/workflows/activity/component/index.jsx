@@ -4,6 +4,7 @@ import SelectField from '../../../components/fields/select';
 import styled from 'styled-components';
 import { useFormikContext } from 'formik';
 import { COLOURS } from '../../../config';
+import getActivityAmount from '../util';
 
 const Container = styled.div`
   margin-bottom: 1rem;
@@ -44,12 +45,7 @@ const Activity = () => {
       />
       <AmountWrapper>
         <AmountTitle>Amount:</AmountTitle>
-        <Amount>
-          R{' '}
-          {activityConfig.ACTIVITY_LIST.find(
-            (activity) => values[activityConfig.SELECT_NAME] === activity.value,
-          )?.amount ?? 0}
-        </Amount>
+        <Amount>R {getActivityAmount(values)}</Amount>
       </AmountWrapper>
     </Container>
   );

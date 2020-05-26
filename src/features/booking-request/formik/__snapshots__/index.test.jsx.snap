@@ -60,8 +60,7 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
           <div
             class="sc-AxhCb cGzwOU"
           >
-            R
-             
+            R 
             -1
           </div>
         </div>
@@ -237,137 +236,13 @@ exports[`Features - Booking Request - Form - Unit Test does it render 1`] = `
         </div>
       </div>
       <div
-        class="sc-fzplWN jETONs"
+        class="sc-fznKkj bdRJUx"
       >
-        <div
-          class="sc-AxgMl eTFDCq"
+        <h3
+          class="sc-fznZeY kYyEiB"
         >
-          <div
-            class="MuiFormControl-root MuiTextField-root"
-          >
-            <label
-              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-              data-shrink="false"
-            >
-              Cardholder Name
-            </label>
-            <div
-              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-            >
-              <input
-                aria-invalid="false"
-                class="MuiInputBase-input MuiInput-input"
-                name="ccName"
-                type="text"
-                value=""
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-AxgMl eTFDCq"
-        >
-          <div
-            class="MuiFormControl-root MuiTextField-root"
-          >
-            <label
-              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-              data-shrink="false"
-            >
-              Card Number
-            </label>
-            <div
-              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-            >
-              <input
-                aria-invalid="false"
-                class="MuiInputBase-input MuiInput-input"
-                name="ccNumber"
-                type="text"
-                value=""
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-fznyAO fWjhrI"
-        >
-          <div
-            class="sc-AxgMl eTFDCq"
-          >
-            <div
-              class="MuiFormControl-root MuiTextField-root"
-            >
-              <label
-                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                data-shrink="true"
-              >
-                Expiry Month
-              </label>
-              <div
-                class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-              >
-                <input
-                  aria-invalid="false"
-                  class="MuiInputBase-input MuiInput-input"
-                  name="ccExpiryMonth"
-                  type="number"
-                  value="0"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-AxgMl eTFDCq"
-          >
-            <div
-              class="MuiFormControl-root MuiTextField-root"
-            >
-              <label
-                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                data-shrink="true"
-              >
-                Expiry Year
-              </label>
-              <div
-                class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-              >
-                <input
-                  aria-invalid="false"
-                  class="MuiInputBase-input MuiInput-input"
-                  name="ccExpiryYear"
-                  type="number"
-                  value="0"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-AxgMl eTFDCq"
-          >
-            <div
-              class="MuiFormControl-root MuiTextField-root"
-            >
-              <label
-                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                data-shrink="true"
-              >
-                CVC
-              </label>
-              <div
-                class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-              >
-                <input
-                  aria-invalid="false"
-                  class="MuiInputBase-input MuiInput-input"
-                  name="ccCvc"
-                  type="number"
-                  value="0"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+          This activity is free
+        </h3>
       </div>
       <button
         class="sc-AxmLO sLNjy"

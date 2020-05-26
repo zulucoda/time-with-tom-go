@@ -6,7 +6,7 @@ exports[`Activity component does it render 1`] = `
     action="#"
   >
     <div
-      class="sc-AxirZ fOBhug"
+      class="sc-AxirZ hoPrKv"
     >
       <div
         class="sc-AxjAm bLetVr"
@@ -46,6 +46,21 @@ exports[`Activity component does it render 1`] = `
               d="M7 10l5 5 5-5z"
             />
           </svg>
+        </div>
+      </div>
+      <div
+        class="sc-AxiKw jMQjew"
+      >
+        <h3
+          class="sc-AxhUy jNsStv"
+        >
+          Amount:
+        </h3>
+        <div
+          class="sc-AxhCb cGzwOU"
+        >
+          R 
+          0
         </div>
       </div>
     </div>

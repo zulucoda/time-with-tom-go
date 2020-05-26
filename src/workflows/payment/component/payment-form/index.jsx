@@ -1,6 +1,6 @@
 import React from 'react';
-import paymentConfig from '../constants';
-import TextField from '../../../components/fields/text';
+import paymentConfig from '../../constants';
+import TextField from '../../../../components/fields/text';
 import styled from 'styled-components';
 
 const Container = styled.div`
