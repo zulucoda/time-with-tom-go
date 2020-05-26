@@ -18,7 +18,7 @@ exports[`Workflow - Payment - Component - Activity - Unit Test does it render 1`
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
             data-shrink="false"
           >
-            ccName
+            Cardholder Name
           </label>
           <div
             class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -43,7 +43,7 @@ exports[`Workflow - Payment - Component - Activity - Unit Test does it render 1`
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
             data-shrink="false"
           >
-            ccNumber
+            Card Number
           </label>
           <div
             class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -71,7 +71,7 @@ exports[`Workflow - Payment - Component - Activity - Unit Test does it render 1`
               class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
               data-shrink="false"
             >
-              ccExpiryMonth
+              Expiry Month
             </label>
             <div
               class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -96,7 +96,7 @@ exports[`Workflow - Payment - Component - Activity - Unit Test does it render 1`
               class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
               data-shrink="false"
             >
-              ccExpiryYear
+              Expiry Year
             </label>
             <div
               class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -121,7 +121,7 @@ exports[`Workflow - Payment - Component - Activity - Unit Test does it render 1`
               class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
               data-shrink="false"
             >
-              ccCvc
+              CVC
             </label>
             <div
               class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"

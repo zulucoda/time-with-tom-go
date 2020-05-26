@@ -15,15 +15,15 @@ const Booking = () => {
   return (
     <Container>
       <TimeField
-        label={bookingConfig.INPUT_START_TIME}
+        label={bookingConfig.TITLE_START_TIME}
         name={bookingConfig.INPUT_START_TIME}
       />
       <TimeField
-        label={bookingConfig.INPUT_END_TIME}
+        label={bookingConfig.TITLE_END_TIME}
         name={bookingConfig.INPUT_END_TIME}
       />
       <DateField
-        label={bookingConfig.INPUT_DATE}
+        label={bookingConfig.TITLE_DATE}
         name={bookingConfig.INPUT_DATE}
       />
     </Container>

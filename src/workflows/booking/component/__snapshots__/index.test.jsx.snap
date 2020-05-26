@@ -19,7 +19,7 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
             data-shrink="true"
           >
-            startTime
+            Start Time
           </label>
           <div
             class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -48,7 +48,7 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
             data-shrink="true"
           >
-            endTime
+            End Time
           </label>
           <div
             class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -77,7 +77,7 @@ exports[`Workflows - Booking - Component - Unit Test does it render 1`] = `
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
             data-shrink="true"
           >
-            date
+            Date
           </label>
           <div
             class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
