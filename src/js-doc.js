@@ -54,3 +54,11 @@
  * @property {boolean} isExact
  * @property {object} params
  */
+
+/**
+ * @typedef ActivityList
+ * @type {object}
+ * @property {string} value
+ * @property {string} title
+ * @property {number} amount
+ */
