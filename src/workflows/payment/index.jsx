@@ -1,9 +1,10 @@
 import React from 'react';
-import User from './component';
 import payload from './payload';
 import validate from './validate';
 import initialValues from './initial-values';
 import isActive from './active';
+import { useFormikContext } from 'formik';
+import Payment from './component';
 
 /**
  * User Workflow Factory
@@ -12,9 +13,12 @@ import isActive from './active';
  */
 const UserWorkflowFactory = ({ ...options }) => {
   return {
-    Component: () => <User />,
-    payload: (values) => payload(values),
-    validate: (values) => validate(values),
+    Component: () => {
+      const { values } = useFormikContext();
+      return isActive(values) ? <Payment /> : <div />;
+    },
+    payload: (values) => (isActive(values) ? payload(values) : {}),
+    validate: (values) => (isActive(values) ? validate(values) : {}),
     isActive: (values) => isActive(values),
     initialValues,
   };
