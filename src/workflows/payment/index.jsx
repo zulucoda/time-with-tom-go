@@ -4,7 +4,7 @@ import validate from './validate';
 import initialValues from './initial-values';
 import isActive from './active';
 import { useFormikContext } from 'formik';
-import Payment from './component';
+import Payment from './component/form';
 
 /**
  * User Workflow Factory
