@@ -24,10 +24,10 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
             action="#"
           >
             <div
-              class="sc-AxhUy bByWWI"
+              class="sc-Axmtr jPGtFr"
             >
               <div
-                class="sc-AxirZ fOBhug"
+                class="sc-AxirZ hoPrKv"
               >
                 <div
                   class="sc-AxjAm bLetVr"
@@ -67,12 +67,28 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                     </svg>
                   </div>
                 </div>
+                <div
+                  class="sc-AxiKw jMQjew"
+                >
+                  <h3
+                    class="sc-AxhUy jNsStv"
+                  >
+                    Amount:
+                  </h3>
+                  <div
+                    class="sc-AxhCb cGzwOU"
+                  >
+                    R
+                     
+                    -1
+                  </div>
+                </div>
               </div>
               <div
-                class="sc-AxhCb fVmqxl"
+                class="sc-AxheI fMcmrM"
               >
                 <div
-                  class="sc-AxiKw grOufF"
+                  class="sc-AxgMl eTFDCq"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -97,7 +113,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
                 <div
-                  class="sc-AxiKw grOufF"
+                  class="sc-AxgMl eTFDCq"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -122,7 +138,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
                 <div
-                  class="sc-AxiKw grOufF"
+                  class="sc-AxgMl eTFDCq"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -148,10 +164,10 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                 </div>
               </div>
               <div
-                class="sc-AxmLO fSyjYq"
+                class="sc-fzpans bbUFkx"
               >
                 <div
-                  class="sc-Axmtr bwmQFr"
+                  class="sc-fzoLsD bhafJB"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -180,7 +196,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
                 <div
-                  class="sc-Axmtr bwmQFr"
+                  class="sc-fzoLsD bhafJB"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -209,7 +225,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
                 <div
-                  class="sc-AxheI gGPxKs"
+                  class="sc-fzozJi iwRtnX"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -239,10 +255,10 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                 </div>
               </div>
               <div
-                class="sc-fzozJi gaxvzP"
+                class="sc-fzplWN jETONs"
               >
                 <div
-                  class="sc-AxiKw grOufF"
+                  class="sc-AxgMl eTFDCq"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -251,7 +267,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                       class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink="false"
                     >
-                      ccName
+                      Cardholder Name
                     </label>
                     <div
                       class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -267,7 +283,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
                 <div
-                  class="sc-AxiKw grOufF"
+                  class="sc-AxgMl eTFDCq"
                 >
                   <div
                     class="MuiFormControl-root MuiTextField-root"
@@ -276,7 +292,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                       class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink="false"
                     >
-                      ccNumber
+                      Card Number
                     </label>
                     <div
                       class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -292,10 +308,10 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                   </div>
                 </div>
                 <div
-                  class="sc-fzoLsD fLyCsJ"
+                  class="sc-fznyAO fWjhrI"
                 >
                   <div
-                    class="sc-AxiKw grOufF"
+                    class="sc-AxgMl eTFDCq"
                   >
                     <div
                       class="MuiFormControl-root MuiTextField-root"
@@ -304,7 +320,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                         class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
                         data-shrink="true"
                       >
-                        ccExpiryMonth
+                        Expiry Month
                       </label>
                       <div
                         class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -320,7 +336,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                     </div>
                   </div>
                   <div
-                    class="sc-AxiKw grOufF"
+                    class="sc-AxgMl eTFDCq"
                   >
                     <div
                       class="MuiFormControl-root MuiTextField-root"
@@ -329,7 +345,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                         class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
                         data-shrink="true"
                       >
-                        ccExpiryYear
+                        Expiry Year
                       </label>
                       <div
                         class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -345,7 +361,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                     </div>
                   </div>
                   <div
-                    class="sc-AxiKw grOufF"
+                    class="sc-AxgMl eTFDCq"
                   >
                     <div
                       class="MuiFormControl-root MuiTextField-root"
@@ -354,7 +370,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                         class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
                         data-shrink="true"
                       >
-                        ccCvc
+                        CVC
                       </label>
                       <div
                         class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -372,7 +388,7 @@ exports[`Features - Booking Request - Unit Test does it render 1`] = `
                 </div>
               </div>
               <button
-                class="sc-AxgMl hkkFJi"
+                class="sc-AxmLO sLNjy"
                 type="submit"
               >
                  Submit 
