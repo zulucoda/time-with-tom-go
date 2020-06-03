@@ -1,68 +1,96 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Time with Tom
+Tom is a popular guy and therefore everyone wants to book time with Tom. So I built a time booking web app for Tom. This web app allows Tom to manage all his social interaction.
 
-## Available Scripts
+1. Users can access Tom’s schedule, and they can see when Tom is available for bookings.
+1. Then users can capture a booking request with the following:
+* date
+* time
+* an activity they want to do with Tom
+* name
+* surname
+* email
 
-In the project directory, you can run:
+**Time with Tom uses the following:**
+* React
+* Formik
+* React-Router
+* React Material-ui
 
-### `yarn start`
+**Making a booking**
+![Making a booking](time-with-tom-booking-request-final.gif)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---------------------------------------------------------------
+## Dev Process
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**Future features:**
+* multiple users on the booking for activities like golf
+* start accepting payments for some activities
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Design - MVP**
+* Users
+    - name
+    - surname
+    - email
+* Booking
+    - date
+    - start time
+    - end time
+* Activity
+    - title
+    - description
+    - minimum time
 
-### `yarn build`
+**Design - future features**
+* start accepting payments for some activities 
+    - Payment Details
+        * Card Provider (Visa or Master Card)
+        * Credit card number
+        * CVV Number 
+        * Expiration Date
+* multiple users on the booking for activities like golf
+    - Users
+        - name
+        - surname
+        - emai1l
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Architecture - MVP**
+* make a new booking request
+    - display activity - activity is the product which determines what the form should render.
+    - select an activity 
+    - display:
+        * user details
+        * booking details
+        * submit button
+* display current bookings
+    - display all submitted booking requests.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Architecture - future features**
+* make a new booking request
+    - display activity - activity is the product which determines what the form should render.
+    - select an activity
+    - display single user booking:
+        * user details
+        * booking details
+        * Payment Option (for some activities)
+        * submit button
+    - display multiple users booking:
+        * multiple users details
+        * booking details
+        * Payment Option
+        * submit button
 
-### `yarn eject`
+**Workflow**
+* activity-workflow ({...options}) => 
+    - component -> activity
+    - payload -> values -> ()
+    - validate -> values -> ()
+    - initialValues
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**isWorkflowActive**
+Each workflow will have a field that is isWorkflowActive_workflowname = true That way the feature formik will be able to disable workflows in their business rules by deactivating or activating a workflow. Then the flow is itself will allow itself to check its own active value and this will determine whether it should proceed with rendering, validate and payload mapping.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**payment workflow**
+Initially display credit card details
+Later on, we may expand payment details to support more options via sub-workflows - part 2 of the blog post
