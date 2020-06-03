@@ -16,6 +16,10 @@ Tom is a popular guy and therefore everyone wants to book time with Tom. So I bu
 * React-Router
 * React Material-ui
 
+**Links**
+- **Demo:** [https://time-with-tom.mfbproject.co.za/](https://time-with-tom.mfbproject.co.za)
+- **Workflows blog post:** [BLOG POST LINK](BLOG POST LINK)
+
 **Making a booking**
 ![Making a booking](time-with-tom-booking-request-final.gif)
 
