@@ -21,6 +21,7 @@ Tom is a popular guy and therefore everyone wants to book time with Tom. So I bu
 - **Workflows blog post:** [BLOG POST LINK](BLOG POST LINK)
 
 **Making a booking**
+
 ![Making a booking](time-with-tom-booking-request-final.gif)
 
 ---------------------------------------------------------------
