@@ -18,7 +18,7 @@ Tom is a popular guy and therefore everyone wants to book time with Tom. So I bu
 
 **Links**
 - **Demo:** [https://time-with-tom.mfbproject.co.za/](https://time-with-tom.mfbproject.co.za)
-- **Workflows blog post:** [BLOG POST LINK](BLOG POST LINK)
+- **Workflows blog post:** [https://blog.mfbproject.co.za/2020/06/07/taming-forms-with-react-and-formik/](https://blog.mfbproject.co.za/2020/06/07/taming-forms-with-react-and-formik/)
 
 **Making a booking**
 
