@@ -1,0 +1,10 @@
+import useAxios, { configure } from 'axios-hooks';
+import axios from '../../services';
+configure({ axios });
+
+function useAxiosWrapper({ path }) {
+  const [{ data, loading, error }, refetch] = useAxios(path);
+  return [{ data, loading, error }, refetch];
+}
+
+export default useAxiosWrapper;
