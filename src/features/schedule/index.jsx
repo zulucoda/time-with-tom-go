@@ -1,16 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import Typography from '@material-ui/core/Typography';
-import { fakeGet } from '../../fake-services';
 import AlertError from '../../components/alerts/error';
 import TableLayout from '../../components/layout/table';
 import ScheduleTable from './table';
+import { API_ENDPOINTS } from '../../config';
+import useAxiosWrapper from '../../hooks/use-axios-wrapper';
 
 const Schedule = () => {
   const [scheduleList, setScheduleList] = useState([]);
+  const [{ data, loading, error }, refetch] = useAxiosWrapper({
+    path: API_ENDPOINTS.GET_BOOKINGS,
+  });
+
   useEffect(() => {
-    const data = fakeGet();
-    setScheduleList(data);
-  }, []);
+    if (!data && loading) {
+      return;
+    }
+
+    if (!data && error) {
+      return;
+    }
+
+    if (data) {
+      setScheduleList(data);
+    }
+  }, [data, loading, error]);
 
   return (
     <TableLayout>

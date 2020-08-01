@@ -9,7 +9,8 @@ import UserWorkflowFactory from '../../../workflows/user';
 import BookingRequestForm from '../form';
 import BookingWorkflowFactory from '../../../workflows/booking';
 import PaymentWorkflowFactory from '../../../workflows/payment';
-import { fakePost } from '../../../fake-services';
+import { post } from '../../../services';
+import { API_ENDPOINTS } from '../../../config';
 
 const BookingRequestFormik = () => {
   const history = useHistory();
@@ -30,7 +31,7 @@ const BookingRequestFormik = () => {
 
   const handleFormSubmission = async (values) => {
     const finalPayload = await payload(values);
-    fakePost(finalPayload);
+    await post({ path: API_ENDPOINTS.POST_BOOKINGS, payload: finalPayload });
     history.push('/schedule');
   };
 
