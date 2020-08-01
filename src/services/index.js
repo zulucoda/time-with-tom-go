@@ -7,4 +7,14 @@ const axios = Axios.create({
   headers: { 'Content-Type': 'application/json' },
 });
 
+export const post = async ({ path, payload }) => {
+  try {
+    return await axios.post(path, payload);
+  } catch (e) {
+    console.error('Error occurred while calling POST');
+    console.error('Details:', JSON.stringify({ path, payload }));
+    console.error(e);
+  }
+};
+
 export default axios;
