@@ -59,7 +59,7 @@ const Header = () => {
 
   return (
     <Wrapper>
-      <Logo>Time with Tom</Logo>
+      <Logo>Time with Tom - using Go API</Logo>
       <NavMenu>
         <NavMenuItem isActive={isMenuActive(activeLink, LINKS.SCHEDULE)}>
           <Link to="/schedule">
