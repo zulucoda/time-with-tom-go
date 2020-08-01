@@ -1,6 +1,6 @@
 import useAxios, { configure } from 'axios-hooks';
 import axios from '../../services';
-configure({ axios });
+configure({ axios, cache: false });
 
 function useAxiosWrapper({ path }) {
   const [{ data, loading, error }, refetch] = useAxios(path);
