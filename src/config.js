@@ -30,4 +30,8 @@ const FORMAT = {
   TIME: 'HH:mm',
 };
 
-export { COLOURS, GRADIENTS, SHADOWS, LINKS, FORMAT };
+const API_ENDPOINTS = {
+  GET_BOOKINGS: '/bookings',
+};
+
+export { COLOURS, GRADIENTS, SHADOWS, LINKS, FORMAT, API_ENDPOINTS };
